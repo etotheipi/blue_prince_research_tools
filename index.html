@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Prince — Community Tools</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- marked.js for markdown rendering in the Docs tab -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+</head>
+<body>
+
+<div id="shell">
+
+  <!-- ── Sidebar ── -->
+  <nav id="sidebar">
+    <div id="sidebar-header">
+      <div id="logo"><span id="logo-accent">⚜</span> Blue Prince</div>
+      <div id="logo-sub">Community Tools</div>
+    </div>
+
+    <ul id="nav-list">
+      <li class="nav-section-label">Tools</li>
+
+      <li class="nav-item" data-tab="tools">
+        <span class="nav-icon">⚙</span>
+        <span class="nav-label">Calculators</span>
+      </li>
+      <li class="nav-item" data-tab="anagram">
+        <span class="nav-icon">🔤</span>
+        <span class="nav-label">Anagram Solver</span>
+      </li>
+
+      <li class="nav-section-label">Reference</li>
+
+      <li class="nav-item" data-tab="docs">
+        <span class="nav-icon">📜</span>
+        <span class="nav-label">All Documents</span>
+      </li>
+      <li class="nav-item" data-tab="browser">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-label">Doc Browser</span>
+      </li>
+      <li class="nav-item" data-tab="quickref">
+        <span class="nav-icon">⭐</span>
+        <span class="nav-label">Quick Reference</span>
+      </li>
+
+      <li class="nav-section-label">Planning</li>
+
+      <li class="nav-item" data-tab="layout">
+        <span class="nav-icon">🗺</span>
+        <span class="nav-label">Layout Organizer</span>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ── Content area ── -->
+  <main id="content">
+
+    <!-- Tab 0: Calculators -->
+    <div id="tab-tools" class="tab-pane"></div>
+
+    <!-- Tab 1: Anagram Solver (iframe) -->
+    <div id="tab-anagram" class="tab-pane tab-iframe"></div>
+
+    <!-- Tab 2: All Documents (markdown viewer) -->
+    <div id="tab-docs" class="tab-pane">
+      <div id="docs-search-bar">
+        <input type="text" id="docs-search" placeholder="Search documents… (Ctrl+F also works)" autocomplete="off" spellcheck="false">
+        <span id="docs-search-count"></span>
+        <div id="docs-nav-buttons">
+          <button id="docs-prev" title="Previous match" disabled>▲</button>
+          <button id="docs-next" title="Next match" disabled>▼</button>
+        </div>
+      </div>
+      <div id="docs-content" class="loading">Loading documents…</div>
+    </div>
+
+    <!-- Tab 3: Doc Browser -->
+    <div id="tab-browser" class="tab-pane">
+      <div class="placeholder-pane">
+        <div class="placeholder-icon">🔍</div>
+        <div class="placeholder-title">Doc Browser</div>
+        <div class="placeholder-desc">
+          The smart document browser will surface in-game documents, images,
+          and transcripts from the master database. Coming once the database
+          is wired in.
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 4: Quick Reference -->
+    <div id="tab-quickref" class="tab-pane">
+      <div class="placeholder-pane">
+        <div class="placeholder-icon">⭐</div>
+        <div class="placeholder-title">Quick Reference</div>
+        <div class="placeholder-desc">
+          A curated page of the most-used in-game documents and transcripts,
+          with click-to-expand images. Coming soon.
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 5: Layout Organizer (iframe) -->
+    <div id="tab-layout" class="tab-pane tab-iframe"></div>
+
+  </main>
+</div>
+
+<!-- Tab modules (load before app.js) -->
+<script src="js/tab-tools.js"></script>
+<script src="js/tab-docs.js"></script>
+<!-- Router + shell logic -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

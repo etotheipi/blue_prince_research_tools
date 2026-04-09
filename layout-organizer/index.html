@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Prince — Layout Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- LEFT PANEL: room tile library -->
+  <div id="left-panel">
+    <div id="left-panel-header">Room Library</div>
+    <div id="room-library"></div>
+  </div>
+
+  <!-- MAIN COLUMN: toolbar + capture area -->
+  <div id="main-col">
+    <div id="toolbar">
+      <button id="btn-screenshot" title="Save screenshot of layout">📷 Screenshot</button>
+      <button id="btn-save" title="Save layout to JSON file">💾 Save Layout</button>
+      <button id="btn-load" title="Load layout from JSON file">📂 Load Layout</button>
+      <button id="btn-clear" title="Clear all tiles from map">🗑 Clear Map</button>
+      <input type="file" id="file-input" accept=".json" style="display:none">
+      <span id="toolbar-hint">Drag tiles onto the map · Q/← rotate left · E/→ rotate right · Del remove</span>
+    </div>
+
+    <!-- CAPTURE AREA: scrollable outer wrapper -->
+    <div id="capture-area">
+
+      <!-- SCREENSHOT TARGET: only this gets captured -->
+      <div id="screenshot-target">
+
+        <!-- Map section: grounds + grid -->
+        <div id="map-section">
+          <!-- Populated entirely by JS as a CSS grid -->
+        </div>
+
+        <!-- Notes section -->
+        <div id="notes-section">
+          <div id="notes-header">Notes</div>
+          <textarea id="notes" placeholder="Add notes, theories, observations about this layout…"></textarea>
+        </div>
+
+      </div><!-- /screenshot-target -->
+
+    </div><!-- /capture-area -->
+  </div><!-- /main-col -->
+
+  <!-- RIGHT PANEL: room info -->
+  <div id="info-sidebar">
+    <div id="info-sidebar-header">Room Details</div>
+    <div id="room-info">
+      <div class="info-placeholder">Click a room tile to see details</div>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

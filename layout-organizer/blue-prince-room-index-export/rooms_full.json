@@ -1,0 +1,2774 @@
+{
+  "count": 110,
+  "missing_icons": [],
+  "rooms": [
+    {
+      "order": 1,
+      "title": "The Foundation",
+      "slug": "the-foundation",
+      "group": "blueprints",
+      "group_order": 1,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/001-the-foundation.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/The_Foundation_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Permanent"
+      ],
+      "description": "is a unique room that permanently remains in place once it has been drafted, like the Entrance Hall and the Antechamber . It has three openings in a T shape. An elevator above a shaft is positioned where the fourth exit would be. The room contains between 2 and 5 Dig Spots (2 or 3 most commonly) and no other elements visible apart from planks and rocks.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - The Foundation Of The Directory"
+      ],
+      "directory_blurb": "The cornerstone of the house, unvarying and unchanging, The Foundation is one of the only constants in the estate on which you can truly rely. This natural cavity was hollowed directly out of the mountain itself, with its stone and earth walls displaying an underlying coarseness that the rest of the mansion conceals."
+    },
+    {
+      "order": 2,
+      "title": "Entrance Hall",
+      "slug": "entrance-hall",
+      "group": "blueprints",
+      "group_order": 2,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/002-entrance-hall.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Entrance_Hall_Icon.png.png",
+      "type_tags": [
+        "Permanent",
+        "Blueprint"
+      ],
+      "description": "As it serves as the main hub and starting point of any new run, the cannot be drafted; it exists as a permanent room, always placed in the centre of the first rank. The table with the flower vase can contain two letters to Simon Jones - one on his very first day in the manor, and one along with a special item when he reaches his goal. If the player has found at least one Allowance Token , the resulting Allowance will be left on the same table, near the letter. Other items and notes may be left here as well,",
+      "rarity": "Cost",
+      "cost": "N/A",
+      "unlock": null,
+      "secrets": [
+        "Locking It In",
+        "When you draft your very first rooms on Day One, this initial draft pool will consist",
+        "only",
+        "of the floorplans for a",
+        "Bedroom",
+        ", a",
+        "Closet",
+        ", and a"
+      ],
+      "directory_blurb": "Past the steps and beyond the grand doors, admission to Mount Holly is granted by way of a dark and garish lobby, suitably called the Entrance Hall . From here, each guest's adventure begins; however, the three doors that proceed onward do not always lead to the same adjoining rooms..."
+    },
+    {
+      "order": 3,
+      "title": "Spare Room",
+      "slug": "spare-room",
+      "group": "blueprints",
+      "group_order": 3,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/003-spare-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Spare_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Potential Renovation"
+      ],
+      "directory_blurb": "An unfurnished, unfinished and otherwise unremarkable empty room. If there had at some point been plans for this spare room, it would seem those designs are now long forgotten."
+    },
+    {
+      "order": 4,
+      "title": "Rotunda",
+      "slug": "rotunda",
+      "group": "blueprints",
+      "group_order": 4,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/004-rotunda.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Rotunda_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is, despite its icon's look, a room with all four compass directions accessible. By pressing the button located at the center of the room, gears make the surrounding walls rotate clockwise, allowing access to another door. Only two doors can be accessed at a time, and rooms linked to it cannot be used to enter if the openings are not placed accordingly. Additionally, any room drawn from the Rotunda can be rotated before drafting.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Round And Round"
+      ],
+      "directory_blurb": "A circular chamber with a domed ceiling adorned with an array of mechanical gears. In the center of the room, a stone podium serves as a central pivot point for the chamber's true purpose: rotation. A fitting function for a room named Rotunda , which means \"clockwise room\" in Erajan."
+    },
+    {
+      "order": 5,
+      "title": "Parlor",
+      "slug": "parlor",
+      "group": "blueprints",
+      "group_order": 5,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/005-parlor.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Parlor_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Puzzle"
+      ],
+      "description": "The is a common corner room featuring a recurring Puzzle that gets incrementally more difficult. Puzzle The Puzzle of the is a logic-based game that rewards Gems",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Black And White And Blue"
+      ],
+      "directory_blurb": "This cozy lounge furnished with couches and armchairs serves as the perfect social setting for receptions and after parties. Consequently this was one of the most popular rooms for entertaining and the late H. S. Sinclair was known to supply a myriad of parlor games to encourage his guests to think and conversate."
+    },
+    {
+      "order": 6,
+      "title": "Billiard Room",
+      "slug": "billiard-room",
+      "group": "blueprints",
+      "group_order": 6,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/006-billiard-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Billiard_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Puzzle"
+      ],
+      "description": "The features a recurring puzzle that gets incrementally more difficult each time you solve it. Unlike the Parlor , however, you cannot miss out on the prize here; you get unlimited tries at the puzzle, and websites which will either partially (walking you through the steps) or fully solve it do exist if you're really having trouble. As a reward, you may receive: 2 Keys",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Right On Target"
+      ],
+      "directory_blurb": "This smoky backroom, featuring a pool table and fully stocked bar, has served as a retreat on more than one occasion for guests lacking the social wit required for after-dinner conversation. A rather curious game of darts provided the less competitive players a unique opportunity to ponder over its unusual rules."
+    },
+    {
+      "order": 7,
+      "title": "Gallery",
+      "slug": "gallery",
+      "group": "blueprints",
+      "group_order": 7,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/007-gallery.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Gallery_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Puzzle"
+      ],
+      "description": "The",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - A Magnificent Work Of Art!"
+      ],
+      "directory_blurb": "A small chamber dedicated to the exhibition of art, ideal for showcasing smaller series and collections. Before his passing, H.S. Sinclair personally selected the artwork that was displayed here each year, purposefully omitting the composition titles to leave the interpretations of each piece for the viewers themselves to realize."
+    },
+    {
+      "order": 8,
+      "title": "Room 8",
+      "slug": "room-8",
+      "group": "blueprints",
+      "group_order": 8,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/008-room-8.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Room_8_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Puzzle"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": "Unlock a door with the Key 8",
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "Unsurprisingly, Key 8 unlocked a door leading to a familiar looking room, a cryptic room that had been previewed in the final 8-letter artwork exhibited in the Gallery. It is now time to ruminate over the bins, sins and pins contained within."
+    },
+    {
+      "order": 9,
+      "title": "Closet",
+      "slug": "closet",
+      "group": "blueprints",
+      "group_order": 9,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/009-closet.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Closet_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": "The is a room that gives access to two Items . Despite its relatively small size, any common item can appear in this room.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "A very modest recessed space used for storage. This particular closet is favored by the junior members of the staff, who utilize it to stash away assorted articles and knicknacks whose proper place in the estate is yet unknown to them."
+    },
+    {
+      "order": 10,
+      "title": "Walk-in Closet",
+      "slug": "walk-in-closet",
+      "group": "blueprints",
+      "group_order": 10,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/010-walk-in-closet.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Walk-in_Closet_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": "The is a normally sized room (in contrast of its sibling, the Closet ) that contains four Items . A picture of Clara Epsen can be seen by the mirror.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - A Fond Farewell"
+      ],
+      "directory_blurb": "The stylish and smart clothes in this generously sized closet belong to the former Mistress of the estate, Lady Epsen. Though the small dressing room has not been used in many years, it is nevertheless kept up and preserved in the state you now find it."
+    },
+    {
+      "order": 11,
+      "title": "Attic",
+      "slug": "attic",
+      "group": "blueprints",
+      "group_order": 11,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/011-attic.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Attic_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": "This room is a Dead End that contains 8 items: an assortment of Keys , Gems , Gold , and special items",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents",
+        "Under a small frame, near the big portrait"
+      ],
+      "directory_blurb": "High above the mansion in its lofty perch, Mt. Holly's Attic provides curious explorers with a cache of dusty keepsakes, trinkets, and clues from a long-forgotten past."
+    },
+    {
+      "order": 12,
+      "title": "Storeroom",
+      "slug": "storeroom",
+      "group": "blueprints",
+      "group_order": 12,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/012-storeroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Storeroom_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": "The is a Dead End that contains various common items . It is generally a good option to draft on early ranks' corners, and it can be upgraded to provide even more items.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - I'll Store These For Later"
+      ],
+      "directory_blurb": "A dedicated storage space filled from end to end with a surplus of chairs, carpets, paintings and a handful of other things that had at one time been in vogue and on display elsewhere in the house."
+    },
+    {
+      "order": 13,
+      "title": "Nook",
+      "slug": "nook",
+      "group": "blueprints",
+      "group_order": 13,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/013-nook.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Nook_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is a Commonplace room with two doors, placed in an L-shape. It contains a Key , which can be found on the main table. Additionally, there is a black note (A journey Noteworthy) on the table beside the right door: “ As you continue on your adventure, you may want to consider getting something to scribble down your notes and observations.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Look In The Nook"
+      ],
+      "directory_blurb": "A snug corner reading room which serves as a quiet, private place for guests to spend a few hours of their afternoon away from the hustle and bustle of the staff."
+    },
+    {
+      "order": 14,
+      "title": "Garage",
+      "slug": "garage",
+      "group": "blueprints",
+      "group_order": 14,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/014-garage.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Garage_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "\"Dead End\""
+      ],
+      "description": "The is a Dead End room that contains a car, as well as 3 Keys located by the entrance on a key rack attached to the wall.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - License and Registration, Sir?"
+      ],
+      "directory_blurb": "Entering and exiting out through the west facing private drive, the Garage serves as a more practical and informal entrance point into the estate."
+    },
+    {
+      "order": 15,
+      "title": "Music Room",
+      "slug": "music-room",
+      "group": "blueprints",
+      "group_order": 15,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/015-music-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Music_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The always contains 1 minor Key , which is a resource item, and 1 major key , which are keys among the Special Items . \"Major keys\" and \"minor keys\" are also references to musical terminology. Possible Keys",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Piano Keys"
+      ],
+      "directory_blurb": "A small recital hall providing an ideal setup for musical performers and accompanists. It is not uncommon for at least a few recitals and performances to be held in this intimate setting each year."
+    },
+    {
+      "order": 16,
+      "title": "Locker Room",
+      "slug": "locker-room",
+      "group": "blueprints",
+      "group_order": 16,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/016-locker-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Locker_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Spread",
+        "Addition"
+      ],
+      "description": "The contains rows of locked lockers of which 17 can be opened using a Key . Drafting this room spreads several Keys around the house (or to the Conference Room if drafted). It is, therefore, a good room to create Keys",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Locked In"
+      ],
+      "directory_blurb": "This poolside Locker Room is of course not always poolside, but it is much more convenient for guests when it is; and much less annoying for the servant who must follow the dripping swimmer across the house searching for their locker."
+    },
+    {
+      "order": 17,
+      "title": "Den",
+      "slug": "den",
+      "group": "blueprints",
+      "group_order": 17,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/017-den.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Den_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The can appear as a drafting choice quite commonly, even during the early ranks of the mansion. The room has three doors, placed as a T-shaped formation and contains a Gem which is found on top of a glass table in the middle of the room. Sometimes, a trunk may appear beside the right-most door.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "A more traditional family room, warm and inviting. So comfortable, one might assume that the countless clocks surrounding the sofas are placed in a futile attempt to avoid inevitably wasting the entire day here."
+    },
+    {
+      "order": 18,
+      "title": "Wine Cellar",
+      "slug": "wine-cellar",
+      "group": "blueprints",
+      "group_order": 18,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/018-wine-cellar.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Wine_Cellar_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Roamin' Numerals"
+      ],
+      "directory_blurb": "A short staircase leads down to this below ground cellar revealing an impressive collection of bottles from every respectable vintage of the last 200 years. To the seasoned wine aficionado, the labels displayed here would indicate a preference for prioritizing extravagance and rarity over quality."
+    },
+    {
+      "order": 19,
+      "title": "Trophy Room",
+      "slug": "trophy-room",
+      "group": "blueprints",
+      "group_order": 19,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/019-trophy-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Trophy_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is an expensive room to draft; in fact, at a cost of five Gems , it is the most expensive room to draft in the game along with the Throne Room . However, it always contains eight gems, for a net gain of three gems. The room also features a trophy cabinet that shows every trophy from the current profile. There is also a paper hanging on a wall by the bottom entrance showing advancement of each achievement .",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "The polished brass of the treasured laurels filling the trophy cases of this room reveal the pride their owner must feel having earned them. Achievements is its own reward but a gold cup is also nice."
+    },
+    {
+      "order": 20,
+      "title": "Ballroom",
+      "slug": "ballroom",
+      "group": "blueprints",
+      "group_order": 20,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/020-ballroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Ballroom_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Entry"
+      ],
+      "description": "This room resets your Gem count and is helpful both early on and in later stages. Readily drafted if your Gem count is dwindling. It can be re-entered repeatedly to restore Gems if you have enough Steps to keep up the dance.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "An opulent hall with a polished mirror floor. In the old days, numerous balls and dances were held in this splendid room. However, as he aged, the Baron began to prefer private parties in the Parlor over the grand formal receptions of his youth."
+    },
+    {
+      "order": 21,
+      "title": "Pantry",
+      "slug": "pantry",
+      "group": "blueprints",
+      "group_order": 21,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/021-pantry.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Pantry_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is a simple angled room commonly found in the house. It contains a note that allow the player to understand the Steps refill value of each fruit. Besides the listed 4 Gold , the is always stocked with at least one",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "A well stocked pantry is always the true test of a large estate, and keeping Mt. Holly's wide gamut of ingredients and supplies stocked has always been one of the primary priorities of the house staff."
+    },
+    {
+      "order": 22,
+      "title": "Rumpus Room",
+      "slug": "rumpus-room",
+      "group": "blueprints",
+      "group_order": 22,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/022-rumpus-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Rumpus_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The primary role of this room is to provide exposition on the game world, atmosphere, and a nudge towards new story content. Besides being a storyteller, Alzara can point one towards potential clues by highlighting the mansion's many mysteries. Alzara The Great Alzara can forecast the future, which costs 1 Gold . For more information about Alzara forecasts, see the dedicated page",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - And So, As It Was Foretold..."
+      ],
+      "directory_blurb": "A uniquely modern fashioned gaming room, the Rumpus Room has provided many guests of the estate with countless hours of recreation. The room is outfitted with a record player, two television sets, a collection of board games and a mysterious antique fortune telling automaton named \"Alzara\"."
+    },
+    {
+      "order": 23,
+      "title": "Vault",
+      "slug": "vault",
+      "group": "blueprints",
+      "group_order": 23,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/023-vault.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Vault_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End"
+      ],
+      "description": "The is a Dead End room that contains 40 Gold .",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "A secure onsite depository fitted with steel walls and numbered lockers. This fortified strongroom holds a good portion of the Sinclair fortune despite the fact that several inventories have led accountants to assume the true legacy is hidden elsewhere."
+    },
+    {
+      "order": 24,
+      "title": "Office",
+      "slug": "office",
+      "group": "blueprints",
+      "group_order": 24,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/024-office.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Office_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Spread"
+      ],
+      "description": "The is an important room, both for the singular terminal that has access to things the others don't (until solving a later puzzle) and for its story and lore-related elements. On the desk, next the computer, is an Upgrade Disk . The Office computer can be used for these things in particular: Run Payroll: spreads gold in the rooms of servants ( Maid's Chamber and",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents",
+        "Between the pictures, on second shelf, against a book."
+      ],
+      "directory_blurb": "The late Sinclair's personal home office, a room he used exclusively for business affairs and the running of the estate, a task he took increasingly more satisfaction in overseeing in his later years."
+    },
+    {
+      "order": 25,
+      "title": "Drawing Room",
+      "slug": "drawing-room",
+      "group": "blueprints",
+      "group_order": 25,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/025-drawing-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Drawing_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting"
+      ],
+      "description": "The is a somewhat common T-shaped room available for the house. When drafting from this room, you may redraw a new set of three floorplans at no cost; this can be done once per exit.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "A social sitting room adorned wall to wall with artwork and drawings. An unfinished sketch of your uncle sits on an easel in the middle of the room, providing a vivid image of what were presumably his final days (depending on when the project was abandoned)."
+    },
+    {
+      "order": 26,
+      "title": "Study",
+      "slug": "study",
+      "group": "blueprints",
+      "group_order": 26,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/026-study.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Study_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting",
+        "Dead End"
+      ],
+      "description": "The is an important Dead End for its multiple Puzzle clues and story advancement. This room, coupled with the Drafting Studio and Office",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "After the passing of Baroness Auravei, her private study was claimed by her eldest son, Herbert Sinclair. For years, he immersed himself in the countless notebooks she left behind, drawing inspiration from her discarded ideas. From mechanical puzzles to architectural blueprints, each endeavor he pursued in this room was realized in the shade of her creative legacy."
+    },
+    {
+      "order": 27,
+      "title": "Library",
+      "slug": "library",
+      "group": "blueprints",
+      "group_order": 27,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/027-library.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Library_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting"
+      ],
+      "description": "This room allows drawing of rare rooms, regardless of how far into the mansion it is. In theory being in higher stages and near the corners should boost these odds somewhat. The upper level contains several books you may use to keep track of your achievements and statistics since arrival. The drafting book can also be used to see which rooms have been avoided when in search of new Puzzle clues. If a request for a book is made, the request form will be replaced by that book on the next day. However, this also means that books cannot be requested back-to-back; you must",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents",
+        "If you have a",
+        "hall pass",
+        ",",
+        "bookshop",
+        "will be more likely to be drawn while drafting in the",
+        "library",
+        "."
+      ],
+      "directory_blurb": "Two stories of wall-to-wall books surround the reader in this room, exhibiting either a bountiful spring of knowledge or typical interior design sensibilities of the wealthy. A few books have been withdrawn from the shelves and placed on rostrum stands in various corners of the library."
+    },
+    {
+      "order": 28,
+      "title": "Chamber of Mirrors",
+      "slug": "chamber-of-mirrors",
+      "group": "blueprints",
+      "group_order": 28,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/028-chamber-of-mirrors.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Chamber_of_Mirrors_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting",
+        "\"Dead End\""
+      ],
+      "description": "This unusual chamber contains mirrored sections perfectly reflecting one another. Even after its secret is discovered it still has its uses. When first entering you are stuck in small room, with glass walls, with a button on a pillar. Pressing this button removes a wall on the other side of the room. Entering the from a different side, and pressing a different button will remove other walls. Slowly allowing you more and more access. Until all button are pressed and there is nothing blocking you going from one exit to the next. And perhaps, with all walls down, you will find a different perspective and reveal the secret of this chamber.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Am I Seeing Double?"
+      ],
+      "directory_blurb": "Reflections of reflections, this confusing room can sometimes prove disorienting to the wayward guest. However, upon closer inspection, they quickly realize that viewing this room from more than one perspective is key to unraveling its secrets."
+    },
+    {
+      "order": 29,
+      "title": "The Pool",
+      "slug": "the-pool",
+      "group": "blueprints",
+      "group_order": 29,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/029-the-pool.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/The_Pool_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting"
+      ],
+      "description": "temporarily adds the Sauna , the Locker Room , and the Pump Room to the Draft Pool.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Everybody's Here"
+      ],
+      "directory_blurb": "An indoor Orindian pool was one of the more modern additions to the estate, the inclusion of which provided a convenient excuse for building a handful of other rooms which not only complement an indoor pool, but are often compulsory inclusions."
+    },
+    {
+      "order": 30,
+      "title": "Drafting Studio",
+      "slug": "drafting-studio",
+      "group": "blueprints",
+      "group_order": 30,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/030-drafting-studio.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Drafting_Studio_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting"
+      ],
+      "description": "The is an important room in terms of seriously plotting your paths through the manor. Each time you enter this room, you will find on the drawing table to the left a selection of three floorplans, taken from a pool of eight Additions . You can pick any one of these new rooms to permanently add to your drafting pool. Note the rooms can be drafted on the day that you add them. Should you have fewer than three plans available to choose from remaining, the table will show only what remains. If you have taken them all, this room loses its main function, but you can still use",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Unlockable Floorplans",
+        "There are eight floorplans you can unlock in this room:",
+        "Casino",
+        "Classroom",
+        "Clock Tower",
+        "Dormitory",
+        "Dovecote",
+        "Solarium"
+      ],
+      "directory_blurb": "As an architect and engineer, it was not uncommon to find your great uncle spending the better part of his weekends here, at a drafting table with a T-square and compass in hand. Over half of the floorplans of Mt. Holly were conceptualized, refined and drafted in this studio."
+    },
+    {
+      "order": 31,
+      "title": "Utility Closet",
+      "slug": "utility-closet",
+      "group": "blueprints",
+      "group_order": 31,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/031-utility-closet.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Utility_Closet_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical",
+        "Dead End"
+      ],
+      "description": "The is a Dead End room containing an electrical box. The electrical box includes four switches: Gymnasium Darkroom Garage Cabinet [crossed out; switch missing] Additionally, there is a set of six combination lights / buttons (V.A.C. controls) that change color",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Buttons, Colors, and Effects"
+      ],
+      "directory_blurb": "One benefit of the restoration of old buildings is that it allows the owners to update and add modern amenities. The utility closet and the circuit breaker box within were set up when gas powered lighting was retired and replaced by a more fashionable home electrical system."
+    },
+    {
+      "order": 32,
+      "title": "Boiler Room",
+      "slug": "boiler-room",
+      "group": "blueprints",
+      "group_order": 32,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/032-boiler-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Boiler_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical"
+      ],
+      "description": "The , apart from containing a complex puzzle itself, is key to solving other puzzles throughout the manor. Once the puzzle is solved and the is restored to working order, you can activate the main boiler and power other connected rooms. Its power is not limitless; a selector switch on the console must be moved to direct steam through the left, right, or middle vent, as it cannot power all three at once. You can tell which vent is powered either by looking at the console, or by checking the ducts in the ceiling to see which is lit up. Certain rooms, while not requiring power themselves, contain ducts that will allow you to link the",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Power Up"
+      ],
+      "directory_blurb": "A utility room serving as a central hub for controlling the heating and steam power supplied to various rooms of the estate. Steam power is conveyed in the estate through steam ducts that run through select rooms. These floorplans must be drafted in an alignment that will facilitate the steam traveling through the house to reach its intended destination."
+    },
+    {
+      "order": 33,
+      "title": "Pump Room",
+      "slug": "pump-room",
+      "group": "blueprints",
+      "group_order": 33,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/033-pump-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Pump_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical",
+        "Addition"
+      ],
+      "description": "The is a mini- Puzzle in itself, as you need to understand how the system functions in order to achieve your goals. There is a note by one entrance showing which room connects to what portion of the system, and you can also check out the system manual from the Library . By activating valves and motors in specific combinations, it is possible to drain or fill any of",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "This facility, dedicated to the filtration and flow of water throughout the estate, houses five water pumps and three oversized tanks. The Pump Room can be utilized for a number of maintenance tasks, from draining the pool to activating the sprinkler system."
+    },
+    {
+      "order": 34,
+      "title": "Security",
+      "slug": "security",
+      "group": "blueprints",
+      "group_order": 34,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/034-security.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Security_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical"
+      ],
+      "description": "The room is one of the very few rooms that triggers a cinematic upon entering it for the first time. It contains several notes and a terminal. The security terminal can give the list of remaining items in the house, change Security Door behaviour, and access security camera recordings. Note: although the security image updates (at a low frame rate) with a picture of Simon at his current location, none of the other monitors update. In particular, The Pool monitor shows an image with a full pool, regardless of its current fill state.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Check The CCTV Footage!"
+      ],
+      "directory_blurb": "A control room with state of the art surveillance equipment, inventory system, and access control via an electronic computer terminal. This room is where the estate's patrol guards kick up their feet and thank their stars they are living in a modern era."
+    },
+    {
+      "order": 35,
+      "title": "Workshop",
+      "slug": "workshop",
+      "group": "blueprints",
+      "group_order": 35,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/035-workshop.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Workshop_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Mechanical Mysteries"
+      ],
+      "directory_blurb": "Springs, screws and coils scattered atop the workbench show signs of this room's frequent use. A craftsman's studio dedicated to creativity and invention, this room was used by your uncle regularly whenever he needed to fix (or improve) a gadget or contraption."
+    },
+    {
+      "order": 36,
+      "title": "Laboratory",
+      "slug": "laboratory",
+      "group": "blueprints",
+      "group_order": 36,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/036-laboratory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Laboratory_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical"
+      ],
+      "description": "The is a Mechanical Blueprint room. It contains a terminal that can be used to conduct experiments involving the manor as a whole. Many of the room's contents appear to have been removed, except for the terminal and some research data that was seemingly no longer needed for any purpose (except serving as clues for Simon ). It's a",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Further Experimentation",
+        "After unlocking the",
+        "Satellite Dish",
+        "and downloading the newly available data, additional conditions and effects will become available.",
+        "Conditions",
+        "\"The first time you enter each room on Rank 9,\"",
+        "\"For each room",
+        "with a fireplace"
+      ],
+      "directory_blurb": "A fully staffed research facility furnished with all manner of scientific equipment and measurement devices. This home laboratory provides a controlled environment in a remote location, far from prying eyes and traditional safety regulations."
+    },
+    {
+      "order": 37,
+      "title": "Sauna",
+      "slug": "sauna",
+      "group": "blueprints",
+      "group_order": 37,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/037-sauna.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Sauna_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Tomorrow",
+        "Dead End",
+        "Addition"
+      ],
+      "description": "The Sauna can only be drafted after you have drafted The Pool ; doing so adds it to the drafting pool (along with the Pump Room and Locker Room ). It can sometimes contain an item, either amidst the coals or on the bench. When you Call it a Day after this room has been drafted, your next day will begin with an additional 20",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Getting Warmer"
+      ],
+      "directory_blurb": "A traditional wood-lined Corarican style sauna, temperature controlled and exceptionally relaxing. The invigorating effects of this room will leave you waking up the next day feeling rejuvenated."
+    },
+    {
+      "order": 38,
+      "title": "Coat Check",
+      "slug": "coat-check",
+      "group": "blueprints",
+      "group_order": 38,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/038-coat-check.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Coat_Check_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Tomorrow",
+        "Dead End"
+      ],
+      "description": "This room can be found quite early on in a new game, but is likely of much more use to you later. It allows you to \"check\" any item — effectively putting it into a separate inventory, inaccessible outside this room — and it will be available for retrieval later on in the day, or even after starting a new day. You may also take an item out of the Coat Check, put it back on the same day, and retrieve it another day, all without repercussions. Doing those things, in fact, may be downright necessary by endgame, assuring this perhaps inconsequential-seeming room never loses its importance. It is one of the few rooms that can avoid being completely concealed by the Archives",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Bringing Down The House...Er, Room",
+        "Once in possession of the",
+        "Conservatory",
+        "floorplan and able to assign a different rarity to rooms, should the Coat Check come up as a choice,",
+        "it is very much worth changing its rarity to Commonplace for certain endgame puzzles if it isn't",
+        "being drawn",
+        "quite",
+        "often enough."
+      ],
+      "directory_blurb": "A cloakroom where guests may leave their coats, bags or hats in exchange for a claim ticket. This floor plan was usually drafted adjoining the Entrance Hall during larger social events such as a ball or gala."
+    },
+    {
+      "order": 39,
+      "title": "Mail Room",
+      "slug": "mail-room",
+      "group": "blueprints",
+      "group_order": 39,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/039-mail-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Mail_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Tomorrow",
+        "Dead End"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - It's All Write"
+      ],
+      "directory_blurb": "A dedicated mailing room in which incoming and outgoing post and packages are sorted and then delivered within the estate to their intended recipients."
+    },
+    {
+      "order": 40,
+      "title": "Freezer",
+      "slug": "freezer",
+      "group": "blueprints",
+      "group_order": 40,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/040-freezer.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Freezer_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Tomorrow",
+        "Dead End"
+      ],
+      "description": "The is a unique Dead End room that instantly freezes the player's assets (their Gems and Gold ) when it is drafted. Gold and",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Get Nice And Cozy"
+      ],
+      "directory_blurb": "Dedicated to deep freeze and cold storage, Mt. Holly's freezer is an insulated space kept almost as frigid as the snowy mountains of Corarica. Sustaining a subzero temperature is vital for keeping the items in this room under ice."
+    },
+    {
+      "order": 41,
+      "title": "Dining Room",
+      "slug": "dining-room",
+      "group": "blueprints",
+      "group_order": 41,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/041-dining-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Dining_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is a very useful room for the house, both for its T-shape allowing new openings with different angles as well as for its meals that can be used to gain Steps . The dinner will only be ready once the player reaches rank 8 . This can be tricky to optimise, but drafting this room late and linking different parts of the",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - What Would You Like to Order?"
+      ],
+      "directory_blurb": "An intimate and warm room with a large dining table boasting a serving tray with a silver dome cover. Dinner is served here each evening."
+    },
+    {
+      "order": 42,
+      "title": "Observatory",
+      "slug": "observatory",
+      "group": "blueprints",
+      "group_order": 42,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/042-observatory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Observatory_Icon.png.png",
+      "type_tags": [
+        "Blueprint"
+      ],
+      "description": "The is a good room that requires many drafts before achieving its real value. Adjusting the telescope allows the player to observe Constellations in the night sky. As the Star value increases, so does the rewards the player can get upon watching the sky. Being able to draft a second allows one to potentially get 2 constellation bonuses in one run.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents - Observe..."
+      ],
+      "directory_blurb": "Housing an impressively large telescope, Mount Holly's observatory is a window to the world above and beyond the clouds and sky. Through its mirrored lens, even a novice stargazer will be able to distinctly appreciate the wonder, signs and constellations that punctuate the tapestry of night."
+    },
+    {
+      "order": 43,
+      "title": "Conference Room",
+      "slug": "conference-room",
+      "group": "blueprints",
+      "group_order": 43,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/043-conference-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Conference_Room_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Spread"
+      ],
+      "description": "The is a simple T-shape room with no fixed content except for a note and a memo . After this room is drafted, any spreading effect will instead put all the items in this room instead, removing the need to walk around the manor to find spread items. Rooms affected by this room's effect include Locker Room ,",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Blue Tents"
+      ],
+      "directory_blurb": "In his later years, H. S. Sinclair had become withdrawn from public life and conducted all business from the comfort and privacy of home. This included the occasional board meetings which were held in the professional setting of this room."
+    },
+    {
+      "order": 44,
+      "title": "Aquarium",
+      "slug": "aquarium",
+      "group": "blueprints",
+      "group_order": 44,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/044-aquarium.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Aquarium_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Bedroom",
+        "Hallway",
+        "Green Room",
+        "Shop",
+        "Red Room",
+        "Blackprint"
+      ],
+      "description": "The counts as every type of room in the game once. In other words, it counts as the following rooms for the purpose of drafting, and also for room-related triggers and synergies: Blueprint Bedroom Hallway Green Room Shop Red Room Blackprint",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Inside the Aquarium are five fish tanks, each holding a diorama of a particular room in the mansion.",
+        "These five are:",
+        "East Wing Hall",
+        ",",
+        "Patio",
+        ",",
+        "Laundry Room",
+        ","
+      ],
+      "directory_blurb": "In addition to having a bouquet of colorful fish swimming within them, each tank in the Aquarium is also inspired by the decor and colors of the various types of rooms found throughout the estate, including one or two red herrings."
+    },
+    {
+      "order": 45,
+      "title": "Antechamber",
+      "slug": "antechamber",
+      "group": "blueprints",
+      "group_order": 45,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/045-antechamber.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Antechamber_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Objective",
+        "Permanent"
+      ],
+      "description": "Reaching the , a word meaning \"the room before\", is the first major goal of the player: in order to access Room 46 , you must get inside the Antechamber first. However, all the doors to this room are sealed, and there seems to be no way to unlock them; figuring out how to open these doors will be your first true challenge. The Antechamber's location never changes and the room does not need to be drafted; as with the Entrance Hall , it is a fixed point on the blueprint, always in the centre space of Rank 9",
+      "rarity": "Cost",
+      "cost": "N/A",
+      "unlock": "Activate one of the three levers opening one of the three lower doors.",
+      "secrets": [
+        "Leverage",
+        "There are levers placed in three different locations, each of which will open one specific door",
+        "within the Antechamber.",
+        "The west-facing door is unsealed using a lever hidden in the",
+        "Secret Garden",
+        ", after turning the handcrank wheels by the fountain so the weathervane's arrows all face the same",
+        "direction.",
+        "The south-facing door is unsealed by using the"
+      ],
+      "directory_blurb": "From its root meaning \"The Room Before\" , all signs and paths point toward the Antechamber. This mysterious sealed room - resting on the 9th Rank - may prove, however, quite an initial challenge to even reach, let alone enter. Still, you can't help but draw a connection between this chamber and Room 46."
+    },
+    {
+      "order": 46,
+      "title": "Room 46",
+      "slug": "room-46",
+      "group": "blueprints",
+      "group_order": 46,
+      "group_color": "blue",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/046-room-46.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Room_46_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Objective",
+        "Permanent"
+      ],
+      "description": "is the original goal of the player upon first entering the Mount Holly Estate. It contains statues of characters of the story: Simon Sinclair Clara Epsen Mary Jones (missing) Simon Jones A huge moon crescent ornament can be seen above the fireplace and a strange looking world-map with",
+      "rarity": "Cost",
+      "cost": "Rumored",
+      "unlock": null,
+      "secrets": [
+        "Crown of the Blueprints",
+        ",",
+        "Deed",
+        ",",
+        "Testament",
+        ",",
+        "Sanctum Key"
+      ],
+      "directory_blurb": "The mysterious room mentioned in H. S. Sinclair's will, named only by a number. Despite the house's official blueprint only showing a total of 45 rooms, the words of the legal document make it apparent that a 46th room in the house in fact exists. Finding this room is your primary objective while on the estate. It is after all, your bequest ."
+    },
+    {
+      "order": 47,
+      "title": "Bedroom",
+      "slug": "bedroom",
+      "group": "bedrooms",
+      "group_order": 1,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/047-bedroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Bedroom_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Entry"
+      ],
+      "description": "The is a common room that can be drafted for the manor. Upon entry, you gain +2 Steps . Under normal conditions, you take -1 Step on entry, then another -1 Step to enter the next room; therefore, the Bedroom leaves you with the same Energy",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Hidden Treasure",
+        "The Bedroom has a hidden dig spot, revealing a word puzzle,",
+        "Baron Bafflers",
+        ", and permanently destroying some of the floor. The dig spot can only be accessed with a",
+        "Treasure Map",
+        "X spot marked in the same space in which the Bedroom has been placed."
+      ],
+      "directory_blurb": "A familiar room that you may have slept in at some prior visit in the past. Like most bedrooms of the estate, these quarters offer you a little rest and recuperation during your long days exploring the surrounding rooms."
+    },
+    {
+      "order": 48,
+      "title": "Boudoir",
+      "slug": "boudoir",
+      "group": "bedrooms",
+      "group_order": 2,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/048-boudoir.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Boudoir_Icon.png.png",
+      "type_tags": [
+        "Bedroom"
+      ],
+      "description": "This is one of the more useful Bedrooms to have in your manor. Like any other Bedroom , it gives you a few extra Steps , but it is not a Dead End",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Your Secret's Safe With Me",
+        "A safe can be found at the back of the room, concealed behind the changing panels and the chair. For",
+        "more information, see the",
+        "Boudoir Safe",
+        "page.",
+        "Eat, Drink, And Be",
+        "Mary",
+        "Merry"
+      ],
+      "directory_blurb": "A private salon with a plethora of fainting couches and chaise lounges that served both as a dressing room for her Ladyship in the mornings and a cozy sitting room for her in the evenings."
+    },
+    {
+      "order": 49,
+      "title": "Guest Bedroom",
+      "slug": "guest-bedroom",
+      "group": "bedrooms",
+      "group_order": 3,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/049-guest-bedroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Guest_Bedroom_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Dead End"
+      ],
+      "description": "The is a Dead End Bedroom , often containing an item on the round table by the bookcases (more commonly) or on the desk in the small alcove. The desk also holds a letter from a previous",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "A small bedroom maintained and kept available for accommodating weekend guests and impromptu visitors who find themselves compelled to stay the night."
+    },
+    {
+      "order": 50,
+      "title": "Nursery",
+      "slug": "nursery",
+      "group": "bedrooms",
+      "group_order": 4,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/050-nursery.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Nursery_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Drafting",
+        "Dead End"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Upgrade strategy",
+        "Before getting the \"Special Nursery\" upgrade, keep in mind that your base energy will be boosted to",
+        "70",
+        "Steps",
+        "relatively early on. In spite of this, the \"Nurse's Station\" can still prove beneficial with proper",
+        "placement or if seeking to make it to a \"end run\" room or",
+        "Coat Check",
+        "."
+      ],
+      "directory_blurb": "One of the few rooms you vividly remember from your visits here in your youth. Though even at that time, you remember feeling a little old for the activities provided here. The twin cribs found in this room might suggest that at one point in time there had been some hopeful expectations of a sudden growth of the family tree."
+    },
+    {
+      "order": 51,
+      "title": "Servant's Quarters",
+      "slug": "servant-s-quarters",
+      "group": "bedrooms",
+      "group_order": 5,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/051-servant-s-quarters.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Servants_Quarters_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Dead End"
+      ],
+      "description": "The is a Bedroom , as well as a Dead End . It used to be Hartley Ruota 's room before Herbert Sinclair passed away, and its effect is to contain as many",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "To Sleep, Perchance To Dream",
+        "Ending the day here causes what one can only assume is great stress and awful sleep; upon waking,",
+        "you will find you somehow possess a single",
+        "Ivory Die",
+        ", but your",
+        "base",
+        "number of",
+        "Steps"
+      ],
+      "directory_blurb": "A cold empty room, devoid of ornamentation and personal effects. This suspiciously humble bedroom belonged to the Baron's personal valet, Hartley Ruota, who had unchallenged access to even the most clandestine areas of the estate."
+    },
+    {
+      "order": 52,
+      "title": "Bunk Room",
+      "slug": "bunk-room",
+      "group": "bedrooms",
+      "group_order": 6,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/052-bunk-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Bunk_Room_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Bedroom",
+        "Dead End",
+        "Dead End"
+      ],
+      "description": "The is counted as both a double Bedroom and a double Dead End . This means that any effect that would trigger in a Bedroom or Dead end will trigger twice here. Even the Mount Holly Direction reflects this by listing it twice in the type of the room. Screenshot Mount Holly Direction",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Sleep",
+        "Ending the day in this room makes a Gemflower in the",
+        "Tomb",
+        ".",
+        "Movie Night",
+        "One of the VHS tapes in this room is labeled",
+        "The",
+        "Trinsdale"
+      ],
+      "directory_blurb": "The rustic, wooden stacked bunk beds evoke the enticing promise of campfire stories and childhood adventures. This bedroom served as a pillowfort and bedroom to the young Sinclair boys, and has remained faithfully unchanged over the years."
+    },
+    {
+      "order": 53,
+      "title": "Her Ladyship's Chamber",
+      "slug": "her-ladyship-s-chamber",
+      "group": "bedrooms",
+      "group_order": 7,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/053-her-ladyship-s-chamber.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Her_Ladyships_Chamber_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Dead End"
+      ],
+      "description": "is a rare and difficult room to draft before understanding the drafting requirements for it. It contains a diary , a locket, and a note.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Sleep",
+        "Ending the day in this room removes 10",
+        "Steps",
+        "for tomorrow but adds 1",
+        "Star",
+        ".",
+        "Diary",
+        "Her Ladyship's Diary"
+      ],
+      "directory_blurb": "Tucked quietly away in the west wing of Mount Holly is the decorative bedroom of your grandmother, Lady Epsen. The style you find, unique in the house, a fitting tribute to her childhood home in Eraja."
+    },
+    {
+      "order": 54,
+      "title": "Master Bedroom",
+      "slug": "master-bedroom",
+      "group": "bedrooms",
+      "group_order": 8,
+      "group_color": "purple",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/054-master-bedroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Master_Bedroom_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Dead End"
+      ],
+      "description": "The is a rare Bedroom ; finding it in higher levels can make doubling back around far easier for exploring or solving added objectives. The can only be found in the east wing. Drafting Requirements The requirements are found on the",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Sleep",
+        "Ending the day in this room will increase tomorrow's",
+        "Steps",
+        "by 10.",
+        "Zoom",
+        "Using the",
+        "Magnifying Glass",
+        "on the first page of"
+      ],
+      "directory_blurb": "H. S. Sinclair's own room. Though perhaps soon you may consider it your own."
+    },
+    {
+      "order": 55,
+      "title": "Hallway",
+      "slug": "hallway",
+      "group": "hallways",
+      "group_order": 1,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/055-hallway.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Hallway_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The is the simplest kind of , with no special behavior unless it is upgraded.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "One of the many nondescript hallways snaking through the estate and providing elegant causeways between the more noteworthy destinations that the house has to offer."
+    },
+    {
+      "order": 56,
+      "title": "West Wing Hall",
+      "slug": "west-wing-hall",
+      "group": "hallways",
+      "group_order": 2,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/056-west-wing-hall.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/West_Wing_Hall_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The is a Hallway that can only be drafted in the west wing of the manor. Contains the West Wing Hall Note on a small table.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "The west wing of the estate has been closed since the death of Lady Epsen. It is unsurprising therefore, that this hallway in its neglected state features boarded windows and dust smothered furniture."
+    },
+    {
+      "order": 57,
+      "title": "East Wing Hall",
+      "slug": "east-wing-hall",
+      "group": "hallways",
+      "group_order": 3,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/057-east-wing-hall.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/East_Wing_Hall_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The is a Hallway that can only be drafted on the east wing of the manor.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "This fenestrated hallway overlooks the east side of the estate grounds and is warmed in the early day by the light of the rising afternoon sun."
+    },
+    {
+      "order": 58,
+      "title": "Corridor",
+      "slug": "corridor",
+      "group": "hallways",
+      "group_order": 4,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/058-corridor.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Corridor_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The is a Hallway that never requires a Key or Keycard to open its second door.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "A long hall with two doors at either end that had been one of your uncle's most frequently traveled rooms. Consequently, he had left strict instructions with the household staff that the doors of this corridor should never under any circumstance be locked."
+    },
+    {
+      "order": 59,
+      "title": "Passageway",
+      "slug": "passageway",
+      "group": "hallways",
+      "group_order": 5,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/059-passageway.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Passageway_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The is one of the few rooms facing all compass directions.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "A long series of unfinished passages used primarily by the servant staff to traverse the estate quickly."
+    },
+    {
+      "order": 60,
+      "title": "Secret Passage",
+      "slug": "secret-passage",
+      "group": "hallways",
+      "group_order": 6,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/060-secret-passage.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Secret_Passage_Icon.png.png",
+      "type_tags": [
+        "Hallway",
+        "\"Dead End\""
+      ],
+      "description": "The is a fake \"Dead End\" room. Selecting one of the coloured books on the center shelf determines what colour of rooms will be drafted. You can choose from the following: Orange - Hallway Green -",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Cornered",
+        "Using the Secret Passage directly next to a corner space will allow a three-exit room to be drafted",
+        "into that space, which should never happen due to the drafting rules of those rooms meaning they",
+        "cannot be placed in corners. Presumably this means the Secret Passage's own drafting rules",
+        "completely override those of the room drafted.",
+        "An",
+        "Electric Eel Aquarium",
+        ", a three-exit room, drafted into the northeast corner via a Secret Passage."
+      ],
+      "directory_blurb": "A small \"Dead End\" room with an ordinary bookcase, that exemplifies that the best means to escape the confinements of our world has always been through books."
+    },
+    {
+      "order": 61,
+      "title": "Foyer",
+      "slug": "foyer",
+      "group": "hallways",
+      "group_order": 7,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/061-foyer.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Foyer_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "Drafting a Foyer within the manor ensures all the doors within any Hallway you draft afterward will be unlocked, as well as unlocking any still locked doors in existing Hallways. (The Spare Foyer upgrade for the Spare Room shares this effect.) This includes the Passageway , the Vestibule and the",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "The grand baroque hall of Mt. Holly is impressive to behold. This ornamented passage is flanked with marble pillars and bust statues of the more prominent figures of the Sinclair family legacy."
+    },
+    {
+      "order": 62,
+      "title": "Great Hall",
+      "slug": "great-hall",
+      "group": "hallways",
+      "group_order": 8,
+      "group_color": "orange",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/062-great-hall.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Great_Hall_Icon.png.png",
+      "type_tags": [
+        "Hallway"
+      ],
+      "description": "The contains a total of eight doors. All of these, apart from the one used to enter, will be locked upon drafting the room (they can be lockpicked). On each of the two sides with three doors, one of the three leads to the drafting space beyond, while the other two lead to small closet-like spaces. It is not possible to visually tell which is which, and the layout changes from day to day, making it a gamble to use keys on these doors. Building a Foyer , which unlocks all hallway doors, will affect all doors within.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Monty Hall Problem",
+        "The rooms on the corners have a higher odds to contain either items, or a passage towards the next",
+        "room.",
+        "This because a side had 4 states:",
+        "Room Right (with the passage door in the middle)",
+        "Room Left (with the passage door in the middle)",
+        "Door Right (with the middle blocked)",
+        "Door Left (with the middle blocked)"
+      ],
+      "directory_blurb": "A room of many doors and even more choices. The Great Hall is unquestionably the largest hallway of the house but it is also the least useful, for the doors \"lining\" its walls are always locked. Perhaps for a reason."
+    },
+    {
+      "order": 63,
+      "title": "Terrace",
+      "slug": "terrace",
+      "group": "green_rooms",
+      "group_order": 1,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/063-terrace.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Terrace_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Dead End"
+      ],
+      "description": "If you're lucky enough to draw it before any others (or reroll it with Ivory Dice ) this is a great first Green Room to draft, since most of the other Green Rooms have a Gem cost.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "A terrace balcony overlooking the grounds providing an ideal spot for appreciating all the verdure and greenery that the estate offers."
+    },
+    {
+      "order": 64,
+      "title": "Patio",
+      "slug": "patio",
+      "group": "green_rooms",
+      "group_order": 2,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/064-patio.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Patio_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Spread"
+      ],
+      "description": "The is a somewhat common Green Room . Drafting this room spreads 1 Gems to all drafted before the . If the Conference Room is drafted all gems end up there instead. The",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Something Fishy About The Barbecue",
+        "Draining the",
+        "Aquarium",
+        "shows a miniature",
+        "Patio",
+        "with a cross painted on the floor next to the barbecue. Digging here using the",
+        "Shovel",
+        "will reward the player with the"
+      ],
+      "directory_blurb": "A roofed outdoor seating area located along the perimeter of the estate. During the summer evenings, it is not unusual for the grill to be employed while entertaining acquaintances of a more informal nature."
+    },
+    {
+      "order": 65,
+      "title": "Courtyard",
+      "slug": "courtyard",
+      "group": "green_rooms",
+      "group_order": 3,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/065-courtyard.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Courtyard_Icon.png.png",
+      "type_tags": [
+        "Green Room"
+      ],
+      "description": "The is a standard Green Room .",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Mass Drafting",
+        "The",
+        "Shrine",
+        "'s Gardener blessing adds eight more Courtyards to the drafting pool, allowing for a manor full of",
+        "Green Rooms",
+        "."
+      ],
+      "directory_blurb": "A charming spot granting guests a bit of fresh air and open skies within the privacy of the manor walls."
+    },
+    {
+      "order": 66,
+      "title": "Cloister",
+      "slug": "cloister",
+      "group": "green_rooms",
+      "group_order": 4,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/066-cloister.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Cloister_Icon.png.png",
+      "type_tags": [
+        "Green Room"
+      ],
+      "description": "The is composed of a walkway around a garden with a statue in the center. As with most Green Rooms , the Cloister is an outside room with no ceiling; it is one of only a few rooms where the sky may be seen while being in the center of the house. The inner yard of the can give 2-4 Dig Spots , but these are seemingly out of reach. On the very first day there will be no Dig Spots",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Inner Garden",
+        "To access the",
+        "Dig Spots",
+        "and potential gem flowers, a",
+        "note in the Solarium",
+        "indicates to stand in front of the statue and press the base of the pillars on either side to open",
+        "the way.",
+        "Once in the inner garden, if you walk around to the back of the statue, there is one"
+      ],
+      "directory_blurb": "A covered walk and colonnade surrounding an enclosed and seemingly inaccessible garden. A solitary angelic statue in the center of the grassy patch provides this secluded court a hallowed atmosphere."
+    },
+    {
+      "order": 67,
+      "title": "Veranda",
+      "slug": "veranda",
+      "group": "green_rooms",
+      "group_order": 5,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/067-veranda.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Veranda_Icon.png.png",
+      "type_tags": [
+        "Green Room"
+      ],
+      "description": "The usually contains two Dig Spots and may contain a tool as well. It can only be drafted while facing North or South on either the West or East-most columns. The Veranda is incorrectly rotated on the in-game map when placed in the West wing; it shows the windows on the left, when they should be on the right. The Veranda can also technically be accessed via the",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "This relaxing breezeway serves as an ideal spot for rocking chairs and lemonade."
+    },
+    {
+      "order": 68,
+      "title": "Greenhouse",
+      "slug": "greenhouse",
+      "group": "green_rooms",
+      "group_order": 6,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/068-greenhouse.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Greenhouse_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Drafting",
+        "Dead End"
+      ],
+      "description": "The prominently features an Antechamber lever on a wall, but its handle is broken and cannot be used as is. It is linked to the Pump Room water network. It can only be drafted while facing North on the East-most side of the estate, or South on the West- most side. Possible items",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Lever",
+        "Putting a",
+        "Broken Lever",
+        "back in place opens the south",
+        "Antechamber",
+        "door.",
+        "Weak Wall",
+        "There is a wall that can be broken with the"
+      ],
+      "directory_blurb": "This room is always warm as its glass walls and roof help to retain the sun's rays. The gardener should be pleased that the long-neglected flower beds have finally been blessed with the glistening gift from the sprinklers installed above."
+    },
+    {
+      "order": 69,
+      "title": "Morning Room",
+      "slug": "morning-room",
+      "group": "green_rooms",
+      "group_order": 7,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/069-morning-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Morning_Room_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Tomorrow"
+      ],
+      "description": "On entry, the contains 2 Gems , and grants 2 Gems the next day.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [],
+      "directory_blurb": "The best thing to go with breakfast is a morning newspaper and a coffee."
+    },
+    {
+      "order": 70,
+      "title": "Secret Garden",
+      "slug": "secret-garden",
+      "group": "green_rooms",
+      "group_order": 8,
+      "group_color": "green",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/070-secret-garden.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Secret_Garden_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Spread"
+      ],
+      "description": "The cannot be drafted from a floorplan like most rooms; the only way to draft it is by using a Secret Garden Key on a locked door into either wing of the House . As long as you are drafting against an outside wall and not into a corner, using the key should open this room.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Fair-Weather Friend",
+        "Using the wheel cranks near the fountain, in order to turn the two errant weathervane arrows to face",
+        "westward, reveals a lever that opens the west",
+        "Antechamber",
+        "door.",
+        "For The Love Of God, Montresor!",
+        "If you use a",
+        "Power Hammer"
+      ],
+      "directory_blurb": "A floorplan so secretive it had been removed from the drafting pool to avoid anyone unwanted accidentally stumbling on it. This secluded garden, flanked by a variety of Mora Jai fruit trees, has served as a private retreat to at least two other generations of Sinclairs."
+    },
+    {
+      "order": 71,
+      "title": "Commissary",
+      "slug": "commissary",
+      "group": "shops",
+      "group_order": 1,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/071-commissary.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Commissary_Icon.png.png",
+      "type_tags": [
+        "Shop"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "A broken-down arcade machine, which it seems the staff are currently attempting to refurbish,",
+        "resides in a corner of the Commissary. (This is suspected to be the Dirigiblocks game that is",
+        "labelled as \"Coming Soon\" in the",
+        "Mount Holly Gift Shop",
+        ", though this cannot currently be confirmed.)",
+        "Shop Layout",
+        "Instead of being completely random, there are 14 different shop layouts in the code, each with its",
+        "own set of four items. Among those there are 7 normal shops that are normally encountered in the"
+      ],
+      "directory_blurb": "The staff commissary is always stocked with household goods and supplies at a reasonable cost. This provides the servants of the estate an invaluable service, especially to the live-in staff who may only expect to leave the property once or twice a month."
+    },
+    {
+      "order": 72,
+      "title": "Kitchen",
+      "slug": "kitchen",
+      "group": "shops",
+      "group_order": 2,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/072-kitchen.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Kitchen_Icon.png.png",
+      "type_tags": [
+        "Shop"
+      ],
+      "description": "This room regularly provides small staple meals for the service staff. Fresh fruit are always on hand regardless of the day of week. As one of the rooms connected to the pump station , the kitchen has a steady supply of water, unless that water is routed elsewhere. The tap however is still fully functional if one ever needs to fill a pot, pan or pail. What can hold water? If the kitchen has enough water, you can use the sink to refill the Watering Can .",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Happy Cakeday",
+        "On",
+        "Simon Jones",
+        "birthday; January 28th, a",
+        "Cupcake",
+        "will be found in the",
+        "Kitchen",
+        "This is a gift from"
+      ],
+      "directory_blurb": "A standard kitchenette with all the typical amenities: a stove, refrigerator, oven and sink. This gallery is where the cooking staff prepares the daily cuisine that will later be served in the Dining Room ."
+    },
+    {
+      "order": 73,
+      "title": "Locksmith",
+      "slug": "locksmith",
+      "group": "shops",
+      "group_order": 3,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/073-locksmith.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Locksmith_Icon.png.png",
+      "type_tags": [
+        "Shop",
+        "Dead End"
+      ],
+      "description": "It offers 4 varieties of items for sale daily, including: Item Price Key 5 Gold Set of Keys (3) 12",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Bribing the key code",
+        "The",
+        "Locksmith",
+        "works with 3 lists. It chooses one list and then checks each key in that list in order. For example",
+        "if you hit the \"40%\" chance for a",
+        "Secret Garden Key",
+        "and you already have this key, the game checks and grants the next key in the list. This slightly",
+        "alters to odds to get specific keys if you already own another key."
+      ],
+      "directory_blurb": "Considering the amount of floor plans and different doors that can appear on any given day, it was only a matter of time before a fulltime locksmith service became an essential requisite on the estate."
+    },
+    {
+      "order": 74,
+      "title": "Showroom",
+      "slug": "showroom",
+      "group": "shops",
+      "group_order": 4,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/074-showroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Showroom_Icon.png.png",
+      "type_tags": [
+        "Shop"
+      ],
+      "description": "Over time, and under the watchful eye of many Barons, several antiques have found their way into the manor, whether through trade or auction. Any sentimental feelings long gone to the grave with many of their owners, these items now possess little value beyond what somebody is willing to pay for them, so they have been put up for sale here in the Showroom, allowing Simon to purchase them if he wishes...and has the Gold to do so. The funds from the sale are an integral part of covering taxes, staff payroll, and other various",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "The",
+        "Blessing of the Monk",
+        "does",
+        "allow you to draft the Showroom as an",
+        "Outer Room",
+        ". This can be used as a way to guarantee it spawns if you have frozen your assets with the",
+        "Freezer",
+        "or taken the tithe money from the"
+      ],
+      "directory_blurb": "An array of jewelry display cabinets showcasing an impressive selection of high-priced items, each unique and one of a kind. This exclusive collection is not for the faint of purse."
+    },
+    {
+      "order": 75,
+      "title": "Laundry Room",
+      "slug": "laundry-room",
+      "group": "shops",
+      "group_order": 5,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/075-laundry-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Laundry_Room_Icon.png.png",
+      "type_tags": [
+        "Shop",
+        "Dead End"
+      ],
+      "description": "The is a peculiar Shop room: in here, Gold is traded not for items, but for other resources through the use of washing machines offering the following services. Service Price Effect",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "A Service Maid To Order",
+        "Connecting the Laundry Room to a power source, like the",
+        "Boiler Room",
+        "or",
+        "Electric Eel Aquarium",
+        ", through the steam ducts will allow you access to a machine with unique services.",
+        "Service",
+        "Price"
+      ],
+      "directory_blurb": "A standard hub of domestic toil complete with washers, dryers and a state of the art steam-powered unit leveraging the newly installed steam ducts leading from the boiler room. Despite its innocent appearance, this inconspicuous place is rumored to launder more than just linen."
+    },
+    {
+      "order": 76,
+      "title": "Bookshop",
+      "slug": "bookshop",
+      "group": "shops",
+      "group_order": 6,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/076-bookshop.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Bookshop_Icon.png.png",
+      "type_tags": [
+        "Shop"
+      ],
+      "description": "The sells a variety of books unavailable elsewhere. Purchasing a book will make it available to the Library 's borrow list. A note in the Conservatory lists this shop as a special case, being only draftable from the Library. Shop Book name Price",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Drafting the Bookshop",
+        "The",
+        "Bookshop",
+        "can only be drafted from the",
+        "Library",
+        ", making it the only room in the game that can only be drafted from one specific room. Combined with",
+        "its rarity, this makes it really hard to find this specific room.",
+        "It seems the Bookshop cannot show up before day 8, and has better chances to appear on day 8 and 14."
+      ],
+      "directory_blurb": "This cozy little bookstore is often tucked away in the more secluded corners of the estate, giving guests little opportunity to appreciate the curated selection of equally rare books it offers. Titles purchased in the Bookshop will be automatically added to the Library's book request form, which fittingly, is the only room in which this rare floorplan can be drawn."
+    },
+    {
+      "order": 77,
+      "title": "The Armory",
+      "slug": "the-armory",
+      "group": "shops",
+      "group_order": 7,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/077-the-armory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/The_Armory_Icon.png.png",
+      "type_tags": [
+        "Shop",
+        "Blackprint"
+      ],
+      "description": "This functions as both a forge and a shop, allowing one to pay for several ancient weapons. On entry, you are given a choice of 3 objects you can purchase from a small pool. Shop Item Price Effect Morning Star 8 Gold Functions as a",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Solve the Chessboard Puzzle “ A stone chamber fitted with ancient weapons and armor from the Second Era. This room appears to predate almost every other room in the house directory and may in fact be an authentic floorplan from one of the lost strongholds of Orinda Aries. — Mount Holly Directory The Armory is one of the rooms found in Blue Prince .",
+      "secrets": [],
+      "directory_blurb": "A stone chamber fitted with ancient weapons and armor from the Second Era. This room appears to predate almost every other room in the house directory and may in fact be an authentic floorplan from one of the lost strongholds of Orinda Aries."
+    },
+    {
+      "order": 78,
+      "title": "Gift Shop",
+      "slug": "gift-shop",
+      "group": "shops",
+      "group_order": 8,
+      "group_color": "yellow",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/078-gift-shop.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Mount_Holly_Gift_Shop_Icon.png.png",
+      "type_tags": [],
+      "description": null,
+      "rarity": null,
+      "cost": null,
+      "unlock": null,
+      "secrets": []
+    },
+    {
+      "order": 79,
+      "title": "Lavatory",
+      "slug": "lavatory",
+      "group": "red_rooms",
+      "group_order": 1,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/079-lavatory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Lavatory_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Dead End"
+      ],
+      "description": "As the manor currently does not house guests nor visitors a is more a hinderance than a necessity, taking up valuable room on the drawing board. Periodically one can find objects left behind by previous guests. Such things are rarely of any material value.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Sheltering In The Toilet",
+        "When the",
+        "Lavatory",
+        "is protected by the",
+        "Shelter",
+        "or a",
+        "Knight's Shield",
+        ", it gives 3 to 4 items instead of no items. These items can consist of:"
+      ],
+      "directory_blurb": "A room one might go to great lengths to avoid showing guests despite them always probing for its location."
+    },
+    {
+      "order": 80,
+      "title": "Chapel",
+      "slug": "chapel",
+      "group": "red_rooms",
+      "group_order": 2,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/080-chapel.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Chapel_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Entry"
+      ],
+      "description": "The is a common Red Room , causing Simon to lose 1 Gold every time it is entered. Having no Gold has no effect upon entering the room; multiple re-entry decreases the Gold account by one every time.",
+      "rarity": "Cost",
+      "cost": "Commonplace",
+      "unlock": null,
+      "secrets": [
+        "Panels",
+        "The numbered panels seen on the walls are used in the",
+        "Tomb Effigy Puzzle",
+        ".",
+        "Savings",
+        "Burning the two special candles (using the",
+        "Self Igniting Torch",
+        "or the"
+      ],
+      "directory_blurb": "A private sacristy, as ornate as the most lavish rooms of the estate, is watched over by eight Ajeran Angels depicited in stained glass. This room was more a tribute to your uncle's vanity than it was to his faith."
+    },
+    {
+      "order": 81,
+      "title": "Maid's Chamber",
+      "slug": "maid-s-chamber",
+      "group": "red_rooms",
+      "group_order": 3,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/081-maid-s-chamber.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Maids_Chamber_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Bedroom"
+      ],
+      "description": "When drafted, the decreases the chances of finding Items in all rooms. This room is both a Bedroom and a Red Room ; the Prism Key",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Sheltered Maid",
+        "When the",
+        "Maid's Chamber",
+        "is protected by the",
+        "Shelter",
+        "or a",
+        "Knight's Shield",
+        "it not only prevents the \"Less likely to find"
+      ],
+      "directory_blurb": "A typical example of the accommodations for the live-in staff on the estate. It appears this particular bedroom belongs to one of the maids."
+    },
+    {
+      "order": 82,
+      "title": "Archives",
+      "slug": "archives",
+      "group": "red_rooms",
+      "group_order": 4,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/082-archives.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Archives_Icon.png.png",
+      "type_tags": [
+        "Red Room"
+      ],
+      "description": "The room's drafting penalty comes into effect immediately upon drafting it, whether the room is entered or not. On all future room drawing, one of the three floorplans will be obscured so that it cannot be easily identified. However, its gem cost, if any, will still be visible, and a few rooms (such as the Coat Check , if an item is checked) can still be identified.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": null,
+      "secrets": [
+        "Protection",
+        "Knight's Shield",
+        "or the",
+        "Shelter",
+        "are efficient ways of protecting against the nasty effect of this room.",
+        "Cabinet",
+        "The middle cabinet's drawers can be opened as part of the",
+        "Archives Puzzle"
+      ],
+      "directory_blurb": "Countless shelves of documents and towering file cabinets make this otherwise immense space seem small and cramped. These archives contain almost a century of records and files pertaining to the Sinclair family's numerous interests, many of which are sealed and unable to be accessed."
+    },
+    {
+      "order": 83,
+      "title": "Gymnasium",
+      "slug": "gymnasium",
+      "group": "red_rooms",
+      "group_order": 5,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/083-gymnasium.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Gymnasium_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Entry"
+      ],
+      "description": "The is an inconvenient room to utilize as it drains your Energy by two extra points every time it is entered, effectively losing 3 Steps per entry.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Power",
+        "Turning the power off from the",
+        "Utility Closet",
+        "cancels the negative effect."
+      ],
+      "directory_blurb": "A half-court intended for basketball and racquetball which is seldom used by anyone apart from the junior staff during their lunch hour. At least they did before Mrs. Babbage disallowed the practice after noticing how worn out staff members were after a game."
+    },
+    {
+      "order": 84,
+      "title": "Darkroom",
+      "slug": "darkroom",
+      "group": "red_rooms",
+      "group_order": 6,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/084-darkroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Darkroom_Icon.png.png",
+      "type_tags": [
+        "Red Room"
+      ],
+      "description": "The 's red safelights shut off upon entering, preventing you from seeing the room's contents or their own drafting pool. The lights can be turned back on, however, which allows you to both explore the room and see your floorplans again, and they will remain on until you Call it a Day . This is possibly the least detrimental of the Red Rooms which have an obvious unhelpful effect, due to the ease with which said effect can be cancelled out.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": null,
+      "secrets": [
+        "Let There Be Light",
+        "Fixing the room lights can be done in three different ways:",
+        "Enter the room so the lights trip, then flip the breaker in the the",
+        "Utility Closet",
+        ".",
+        "Turning the Darkroom circuit breaker off, then on again, after drafting the room (do not enter or",
+        "you'll trip the lights) will prevent overload.",
+        "Using protection such as the"
+      ],
+      "directory_blurb": "A room dedicated to photo processing, development and print-making. This room is outfitted with safelights which provide red illumination to which the photographic material is insensitive. However, due to a faulty installation the safelights often overload their circuit capacity and blow a fuse."
+    },
+    {
+      "order": 85,
+      "title": "Weight Room",
+      "slug": "weight-room",
+      "group": "red_rooms",
+      "group_order": 7,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/085-weight-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Weight_Room_Icon.png.png",
+      "type_tags": [
+        "Red Room"
+      ],
+      "description": "The Steps are lost on drafting, not on entry. Drafting this room while low on Steps makes it not as bad as during the early stage of the day. The reduction in steps is rounded down if the current step count is odd. For instance, drafting the room while having 21 steps will result in 10 steps being lost, with 11 remaining.",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Weak Wall",
+        "Weight Room map",
+        "1/1",
+        "If you have a",
+        "Power Hammer",
+        "you will be able to knock down the brick wall on the bottom left. Inside you will find a lever which",
+        "unlocks the southern opening of the",
+        "Antechamber"
+      ],
+      "directory_blurb": "An exercise room outfitted with weightlifting equipment. A good workout session here will wipe you out and leave you with little energy left for exploring."
+    },
+    {
+      "order": 86,
+      "title": "Furnace",
+      "slug": "furnace",
+      "group": "red_rooms",
+      "group_order": 8,
+      "group_color": "red",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/086-furnace.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Furnace_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Dead End"
+      ],
+      "description": "It is a Dead End room with little to no use as you first find it, similar to other Red Rooms . Its purpose, though unnoticeable to the player except in certain circumstances, seems to be to heat any rooms that it is within two ranks of as well as those in its own rank. Its heat, however, may also spread to the whole of the manor if given enough time. After drafting the Furnace, there is a high chance when drafting that at least one",
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": null,
+      "secrets": [
+        "Sheltered from the cold.",
+        "When the",
+        "Furnaceis",
+        "protected by the",
+        "Shelter",
+        "or a",
+        "Knight's Shield",
+        "it not only prevents the \"You are more likely to draw"
+      ],
+      "directory_blurb": "The main centralized heat source for the estate. You may find yourself starting to sweat after drafting this room."
+    },
+    {
+      "order": 87,
+      "title": "Dovecote",
+      "slug": "dovecote",
+      "group": "studio_additions",
+      "group_order": 1,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/087-dovecote.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Dovecote_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Addition"
+      ],
+      "description": "When the is drawn while drafting, it provides the ability to rotate any of the drawn floorplans (including itself) indefinitely. The effect still works if the Darkroom lights are off or through the Archives effects.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Random chance in Drafting Studio .",
+      "secrets": [
+        "Alcove Letters",
+        "A small box of letters written by",
+        "Mary Jones",
+        "is found in one of the lower alcoves.",
+        "1/4",
+        "Blue Tents"
+      ],
+      "directory_blurb": "A towering loft serving home to many of the feathered locals of Mount Holly. As a devout bird- watcher and amateur ornithologist Mary had petitioned her uncle for years for this to be built on the estate."
+    },
+    {
+      "order": 88,
+      "title": "The Kennel",
+      "slug": "the-kennel",
+      "group": "studio_additions",
+      "group_order": 2,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/088-the-kennel.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/The_Kennel_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Addition"
+      ],
+      "description": "The room consists of a straight pathway between two rows of stalls on either side of the room. There is a shelf between the stalls on the left, which may contain an item (very often a certain key) and there appear to be several dog doors leading between stalls and even out of the room, which suggests the dogs may come and go into one another's spaces - or the manor itself - as they wish. One of the stall doors is unlocked, implying a single dog may be loose on the Grounds . This is supported by the fact that if you trigger the effect of this room, you will hear a dog barking (the sound of which tells you the effect has worked). If you return here afterwards, you may find new dig spots for every instance of activation; having the Root Cellar",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Random chance in Drafting Studio . “ Home to several of Sinclair's hunting companions. It can be assumed these friendly hounds have been anxious to meet their new master. — Mount Holly Directory The Kennel is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Blue Tents - Hot Dog!"
+      ],
+      "directory_blurb": "Home to several of Sinclair's hunting companions. It can be assumed these friendly hounds have been anxious to meet their new master."
+    },
+    {
+      "order": 89,
+      "title": "Clock Tower",
+      "slug": "clock-tower",
+      "group": "studio_additions",
+      "group_order": 3,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/089-clock-tower.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Clock_Tower_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Tomorrow",
+        "Dead End",
+        "Addition"
+      ],
+      "description": "Drafting this room grants, at the start of the following day, an extra Key for every Tomorrow room in the mansion. A Chamber of Mirrors should allow for two Clock Towers to be drafted for an added bonus. This room is a counterpart to the Morning Room , which grants bonus",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Random chance in Drafting Studio .",
+      "secrets": [
+        "The Passage of Time",
+        "At the top of the Clock Tower are multiple clocks which show the passage of time. Each day begins at",
+        "8am. Game time advances differently to real time in Blue Prince, at a rate of around 1 hour of game",
+        "time per 7.5 minutes of real time (or 8x the speed of real time).",
+        "Blue Tents"
+      ],
+      "directory_blurb": "Access to Mt. Holly's clock tower has always been heavily restricted. Time is sacred and any tampering of the estate's governing timepiece has never been risked."
+    },
+    {
+      "order": 90,
+      "title": "Classroom",
+      "slug": "classroom",
+      "group": "studio_additions",
+      "group_order": 4,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/090-classroom.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Classroom_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting",
+        "Addition"
+      ],
+      "description": "The Classroom is a Studio Addition that can be permanently added to the Draft Pool by selecting it in the Drafting Studio . Eight additional copies of the Classroom can be added for the duration of the day by drafting the Schoolhouse in the Outer Room",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Random chance in Drafting Studio and/or added by the Schoolhouse",
+      "secrets": [
+        "Blue Tents",
+        "Here is the list of all notes from all grades:",
+        "Grade",
+        "Note",
+        "Grade 1"
+      ],
+      "directory_blurb": "An exact copy of the floorplan used in the architectural design of Reddington Elementary. These copies were deployed in Mt. Holly as a short term solution, to allow the curriculum to continue uninterrupted while the new school was being built in town."
+    },
+    {
+      "order": 91,
+      "title": "Solarium",
+      "slug": "solarium",
+      "group": "studio_additions",
+      "group_order": 5,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/091-solarium.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Solarium_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Dead End",
+        "Addition"
+      ],
+      "description": "Keep in mind when drafting this room that most Unusual and Rare rooms usually cost Gems to draft.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Random chance in Drafting Studio .",
+      "secrets": [
+        "Note",
+        "The",
+        "Note",
+        "found in this room details how to access the",
+        "Cloister",
+        "center."
+      ],
+      "directory_blurb": "A quaint floral sitting room surrounded entirely by tinted glass panes. This room is ideal for tea in the afternoons or getting some sun without the hassle of going outside."
+    },
+    {
+      "order": 92,
+      "title": "Dormitory",
+      "slug": "dormitory",
+      "group": "studio_additions",
+      "group_order": 6,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/092-dormitory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Dormitory_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Entry",
+        "Dead End",
+        "Addition"
+      ],
+      "description": "The has the Drafting Strategy Vol. 2 book on its desk",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Random chance in Drafting Studio . “ These small sleeping quarters, devoid of frills and distractions, are ideal for the student, scholar or denizen of academia who wish to focus on their studies without interruption. Study and sleep. Rinse and repeat. — Mount Holly Directory Dormitory is one of the rooms found in Blue Prince .",
+      "secrets": [],
+      "directory_blurb": "These small sleeping quarters, devoid of frills and distractions, are ideal for the student, scholar or denizen of academia who wish to focus on their studies without interruption. Study and sleep. Rinse and repeat."
+    },
+    {
+      "order": 93,
+      "title": "Vestibule",
+      "slug": "vestibule",
+      "group": "studio_additions",
+      "group_order": 7,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/093-vestibule.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Vestibule_Icon.png.png",
+      "type_tags": [
+        "Hallway",
+        "Entry",
+        "Addition"
+      ],
+      "description": "Entering the causes all four of its doors to close, after which one randomly selected door locks and the other three unlock. Be wary as this room can drain all of your Keys quickly if you use it as a navigation hub. Instead of using a Key , you can also exit and enter the vestibule again. This allows you to use Steps instead of",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Random chance in Drafting Studio . “ An ornately framed yet modestly sized hall. It had served as the original antechamber in the old days before eventually being removed from the estate for having doors that were prone to becoming stuck. — Mount Holly Directory Vestibule is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Synergies",
+        "Drafting the",
+        "Foyer",
+        ", having the",
+        "Lockpick",
+        "or the",
+        "Master Key",
+        ", or still being under the"
+      ],
+      "directory_blurb": "An ornately framed yet modestly sized hall. It had served as the original antechamber in the old days before eventually being removed from the estate for having doors that were prone to becoming stuck."
+    },
+    {
+      "order": 94,
+      "title": "Casino",
+      "slug": "casino",
+      "group": "studio_additions",
+      "group_order": 8,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/094-casino.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Casino_Icon.png.png",
+      "type_tags": [
+        "Shop",
+        "Addition"
+      ],
+      "description": "The Casino has several simple slot machines providing a basic gambling experience. There is an experimental 6th slot machine; however, one of the staff appears to have broken it, likely leading to the shelving of this particular floorplan. For those seeking a greater thrill, the Roulette table accepts larger bets. Without a dedicated staff, this can usually only accommodate a single bet before needing maintenance. Slot Machine The primary slot machine in the Casino offers several distinct winning combinations. Each spin may result in the following outcomes: Symbol Combination Reward/Effect",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Random chance in Drafting Studio . “ The Mount Holly Casino offers an intimate and exciting setting for wagers of any scale, and guests may be surprised to discover how much strategy is involved in the games featured here. A buy-in of two Gems is required for admittance into this exclusive room. — Mount Holly Directory Casino is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "The 6th Machine",
+        "**WARNING**",
+        "There is currently a bug when interacting with this machine, repaired or not, that can cause players",
+        "games to softlock, forcing a reset and loss of all the progress made that day. This bug does not",
+        "occur for everyone, and it doesnt always occur right away. Use the machine at your own risk.",
+        "The broken slot machine can be immediately repaired if one has the",
+        "Broken Lever",
+        ". This machine allows an outcome to be re-rolled up to 5 times."
+      ],
+      "directory_blurb": "The Mount Holly Casino offers an intimate and exciting setting for wagers of any scale, and guests may be surprised to discover how much strategy is involved in the games featured here. A buy-in of two Gems is required for admittance into this exclusive room."
+    },
+    {
+      "order": 95,
+      "title": "Planetarium",
+      "slug": "planetarium",
+      "group": "found_floorplans",
+      "group_order": 1,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/095-planetarium.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Planetarium_Icon.png.png",
+      "type_tags": [
+        "Tomorrow",
+        "Blueprint",
+        "Dead End",
+        "Addition"
+      ],
+      "description": "The is linked strongly with the Observatory around sky watching and the Stars . Three rows of seats fill a section of the round room and face a rotating star projector. Overhead, a mobile of the planets of the solar system rotates in orbit to a background of stars. A typed list of Constellations sits on one of the chairs.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Find on the estate to permanently unlock this draft.",
+      "secrets": [
+        "Blue Tents - Star Light, Star Bright"
+      ],
+      "directory_blurb": "A circular theatre featuring a dome shaped projection screen upon which scenes of the stars and galaxies allow viewers to experience the splendor of the heavens."
+    },
+    {
+      "order": 96,
+      "title": "Mechanarium",
+      "slug": "mechanarium",
+      "group": "found_floorplans",
+      "group_order": 2,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/096-mechanarium.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Mechanarium_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Mechanical",
+        "Addition"
+      ],
+      "description": "The will have one extra door (apart from the one needed to enter the room) per Mechanical room already drafted. If more than three such rooms have already been drafted, the additional doors will be added in the corners of the Mechanarium, and will lead to small closet-like spaces rather than full rooms.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Find on the estate to permanently unlock this draft.",
+      "secrets": [
+        "Spawning Rules",
+        "The doors are spawned randomly following some rules:",
+        "No doors are generated for dead-end walls against an adjacent room which lacks a doorway.",
+        "If there are not enough available doors to fill spaces, doors leading to existing rooms and doors",
+        "leading to empty blueprint spaces are generated with equal likelihood.",
+        "If there are more than enough doors to fill the available spaces, up to four additional diagonal",
+        "doors can be added.",
+        "Blue Tents - A Coat Of Numerals"
+      ],
+      "directory_blurb": "An iron vaulted mechanical chamber affixed with motorized panels that can reveal up to 8 different doors depending on the parameters at the time of creation."
+    },
+    {
+      "order": 97,
+      "title": "Treasure Trove",
+      "slug": "treasure-trove",
+      "group": "found_floorplans",
+      "group_order": 3,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/097-treasure-trove.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Treasure_Trove_Icon.png.png",
+      "type_tags": [
+        "Blackprint",
+        "Addition"
+      ],
+      "description": "Its coin reward increases by 5 Gold for each time that the room has been previously drafted. However, it will not increase beyond 160 coins. The floorplan for Treasure Trove is found by solving the Rotating Gear Puzzle . There is also a colored chest in this room, which contains a colored note. Much like the chests found in The Reservoir",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Found on the second floor of Rotating Gear behind a locked gate. “ Turns out the oft rumored \"Treasure of Mount Holly\" was more than just a rumor. — Mount Holly Directory Treasure Trove is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Coin Purse",
+        "Collection",
+        "This room is even more effective with a",
+        "Coin Purse",
+        "or",
+        "Lucky Purse",
+        ", as the bonus is applies to all",
+        "Gold"
+      ],
+      "directory_blurb": "Turns out the oft rumored \"Treasure of Mount Holly\" was more than just a rumor."
+    },
+    {
+      "order": 98,
+      "title": "Throne Room",
+      "slug": "throne-room",
+      "group": "found_floorplans",
+      "group_order": 4,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/098-throne-room.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Throne_Room_Icon.png.png",
+      "type_tags": [
+        "Blackprint",
+        "Addition"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": "Find on the estate to permanently unlock this draft.",
+      "secrets": [
+        "I've Got A Plan",
+        "Obtaining the",
+        "Throne Room",
+        "floorplan requires you to solve the",
+        "Blackbridge Grotto Puzzle",
+        ". Once you have done that and entered the sealed",
+        "Microchip",
+        "door, you'll find the"
+      ],
+      "directory_blurb": "The former seat of power of Orinda Aries before the current era and the rise of the red banner."
+    },
+    {
+      "order": 99,
+      "title": "Tunnel",
+      "slug": "tunnel",
+      "group": "found_floorplans",
+      "group_order": 5,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/099-tunnel.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Tunnel_Icon.png.png",
+      "type_tags": [
+        "Hallway",
+        "Drafting",
+        "Addition"
+      ],
+      "description": "Tunnel is a boring hallway; it's a hallway that bores holes in the house. When drafting in the , another Tunnel will always be drawn, with no limit other than the size of the manor. This way, a player could in theory access the Antechamber very easily and quickly. This room can only be drafted facing North or South.",
+      "rarity": "Cost",
+      "cost": "Standard",
+      "unlock": "Find on the estate to permanently unlock this draft. “ Going under all obstacles, the tunnel pierces through walls and rooms alike. This crudely excavated passage looks to be the work of someone determined to get where they are going regardless of whether the house's floor plan is accommodating or not. — Mount Holly Directory Tunnel is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Floorplan Location",
+        "This floorplan can be found in the",
+        "Tunnel Area",
+        ", though it requires the ability to light up torches there.",
+        "Drafting Restrictions",
+        "According to",
+        "a Reddit post by THMurphy",
+        ", the Tunnel cannot be directly drafted facing East/West from the East or West wing of the house."
+      ],
+      "directory_blurb": "Going under all obstacles, the tunnel pierces through walls and rooms alike. This crudely excavated passage looks to be the work of someone determined to get where they are going regardless of whether the house's floor plan is accommodating or not."
+    },
+    {
+      "order": 100,
+      "title": "Conservatory",
+      "slug": "conservatory",
+      "group": "found_floorplans",
+      "group_order": 6,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/100-conservatory.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Conservatory_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Drafting",
+        "Addition"
+      ],
+      "description": "The Conservatory is one of the very few ways to adjust the rarity of floorplans, and the only one that can change the rarity of any type of floorplan. A selection of three random floorplans will be shown here, and can be changed as many times as desired. While in this room, you can also open your room directory and reset the rarity of rooms back to their default. Contains the Conservatory Note on the left shelf.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Find on the estate to permanently unlock this draft. “ This baroque arboretum showcases and preserves the rarest specimens of every type and variety. Through selective propagation, the gardener here may influence which flora (or floora) will be considered commonplace during the next season. — Mount Holly Directory The Conservatory is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Moving To A New Floor(plan)",
+        "The hint for this floorplan's location is hidden within the",
+        "Sheet Music",
+        "scattered throughout the house. It will lead you to a grove of trees with white trunks by the",
+        "Campsite",
+        "; dig amidst these trees, near a few small rocks in the ground, to obtain the floorplan."
+      ],
+      "directory_blurb": "This baroque arboretum showcases and preserves the rarest specimens of every type and variety. Through selective propagation, the gardener here may influence which flora (or floora) will be considered commonplace during the next season."
+    },
+    {
+      "order": 101,
+      "title": "Lost & Found",
+      "slug": "lost-and-found",
+      "group": "found_floorplans",
+      "group_order": 7,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/101-lost-and-found.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Lost__Found_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Entry",
+        "Addition"
+      ],
+      "description": "The Lost & Found contains two rare items the first time you enter it, but will randomly select one of your inventory items to take away every single time you enter. This effect is particularly harsh, even for a Red Room , in that it triggers every single time you step into the room - you will lose an item unless you have none left in your possession. However, it is an efficient way to empty your inventory if desired, as items are only placed in your inventory if you actively pick them up.",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Find on the estate to permanently unlock this draft.",
+      "secrets": [
+        "Floorplan Location",
+        "Reading the complete Underground Map with a",
+        "Magnifying Glass",
+        "will show a hidden 10th area on the map. Digging where this 10th area is shown rewards the player",
+        "with the floorplan.",
+        "You'll have to inspect the ground quite slowly to make sure you don't miss the shovel icon showing",
+        "where you can dig, as the location is rather precise.",
+        "In case you're still having trouble, or a text explanation is easier, look around at the spot where"
+      ],
+      "directory_blurb": "There has always been a history of things disappearing on the estate, including this very floorplan, which had been lost for many years itself and missing from the directory. Now that it has been found, some long lost items from Mount Holly's past might finally resurface..."
+    },
+    {
+      "order": 102,
+      "title": "Closed Exhibit",
+      "slug": "closed-exhibit",
+      "group": "found_floorplans",
+      "group_order": 8,
+      "group_color": "black",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/102-closed-exhibit.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Closed_Exhibit_Icon.png.png",
+      "type_tags": [
+        "Red Room",
+        "Addition"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Rare",
+      "unlock": "Find on the estate to permanently unlock this draft.",
+      "secrets": [
+        "Floorplan Location",
+        "Found in the",
+        "Study Safe",
+        ".",
+        "Accessing the crown",
+        "The Royal Museum plan",
+        "found in the",
+        "Safehouse"
+      ],
+      "directory_blurb": "A painstakingly produced accurate reproduction of one of the so-called \"Closed\" Exhibits of the Fenn Aries Royal Museum."
+    },
+    {
+      "order": 103,
+      "title": "Toolshed",
+      "slug": "toolshed",
+      "group": "outer_rooms",
+      "group_order": 1,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/103-toolshed.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Toolshed_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": null,
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path “ A simple shed with a variety of tools used by the groundskeepers in the course of their duties. — Mount Holly Directory Toolshed is one of the rooms found in Blue Prince .",
+      "secrets": [],
+      "directory_blurb": "A simple shed with a variety of tools used by the groundskeepers in the course of their duties."
+    },
+    {
+      "order": 104,
+      "title": "Shelter",
+      "slug": "shelter",
+      "group": "outer_rooms",
+      "group_order": 2,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/104-shelter.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Shelter_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "This room can grant \"Sheltered\" status, preventing the negative effects of the next three Red Rooms you draft from triggering. It also contains a time-lock safe and a computer terminal connected to the main network. As you discover more blueprints, the proportion of Red to Blue rooms drops over time, making this particular room most useful in the earlier stages of the game. However, accessing the terminal, either directly or remotely, and choosing the Radiation Monitor option can trigger the unlocking of all doors within the manor (save for those in the Antechamber ) if you have completed enough experiments from the",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path",
+      "secrets": [
+        "Sheltered effects",
+        "The",
+        "Shelter",
+        "effect is extremely helpful, especially early on. It triggers three times, once for each of the next",
+        "three Red Rooms you draft, and causes the following effects:",
+        "Darkroom",
+        "- You are able to see your next draft choices when the power is out, whether by turning it off",
+        "manually or by letting it go out when you first enter."
+      ],
+      "directory_blurb": "An underground bunker located away from the main house. This fallout shelter was designed specifically for air raids and features thick walls made from lead and other materials intended to block radiation. A computer terminal within has been connected to the house's network system should an emergency necessitate remote access."
+    },
+    {
+      "order": 105,
+      "title": "Schoolhouse",
+      "slug": "schoolhouse",
+      "group": "outer_rooms",
+      "group_order": 3,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/105-schoolhouse.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Schoolhouse_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Drafting",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "The is one of the rooms found in Blue Prince . It is a small single room with some small desks and chairs haphazardly strewn about, as well as one large desk at the front, on which a typed note sits, for the teacher. One of the children's desks has the name \"Herbie\" written or carved on it; presumably either this one was used by a much younger Herbert",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path",
+      "secrets": [
+        "Give Yourself Some Credits",
+        "The effect of this room enables the player to take the",
+        "Final Exam",
+        ", as it is the only way one may draft the total of 9",
+        "Classrooms",
+        "needed to get there.",
+        "Dodging The Draft",
+        "Drafting the Schoolhouse activates a drafting algorithm that is assigned to one of the following 5"
+      ],
+      "directory_blurb": "Long before Reddington Elementary was opened, school convened in a single small building. As the student body grew over the years, the need for separate classrooms for each grade arose and the Mt. Holly Schoolhouse was officially closed down."
+    },
+    {
+      "order": 106,
+      "title": "Shrine",
+      "slug": "shrine",
+      "group": "outer_rooms",
+      "group_order": 4,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/106-shrine.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Shrine_Icon.png.png",
+      "type_tags": [
+        "Blueprint",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "The grants a blessing in return for any amount of gold. The minimum donation is 1 gold and the maximum donation is 80 gold. Blessings There are eight types of blessings. Those being: Blessing of the Dancer - While drafting, you may pay 1 Gem to spin floor plans",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "Curse Mode “ A sacred silence permeates this candlelit cavern, whose flickering lights add to the holy aura shining down upon a meditative statue. His stone hands present forth a stone bowl to the devout pilgrim who may wish to make an offering of gold. — Mount Holly Directory Shrine is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "Cursed Chest",
+        "Smashing open the cursed chest reveals the",
+        "Cursed Effigy",
+        ". Upon retrieval, the player unlocks the",
+        "Curse Mode",
+        ", following the",
+        "The Curse of Black Bridge",
+        "story."
+      ],
+      "directory_blurb": "A sacred silence permeates this candlelit cavern, whose flickering lights add to the holy aura shining down upon a meditative statue. His stone hands present forth a stone bowl to the devout pilgrim who may wish to make an offering of gold."
+    },
+    {
+      "order": 107,
+      "title": "Root Cellar",
+      "slug": "root-cellar",
+      "group": "outer_rooms",
+      "group_order": 5,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/107-root-cellar.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Root_Cellar_Icon.png.png",
+      "type_tags": [
+        "Green Room",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "is one of the rooms found in Blue Prince . The effect causes two different effects. Any room that normally has a chance of Dig Spots has a higher chance to contain said Dig Spots",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path “ An underground store of jarred vegetables and fruits from Mount Holly's gardens. It's always amazing what great things come from a little digging around in the dirt. — Mount Holly Directory",
+      "secrets": [],
+      "directory_blurb": "An underground store of jarred vegetables and fruits from Mount Holly's gardens. It's always amazing what great things come from a little digging around in the dirt."
+    },
+    {
+      "order": 108,
+      "title": "Hovel",
+      "slug": "hovel",
+      "group": "outer_rooms",
+      "group_order": 6,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/108-hovel.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Hovel_Icon.png.png",
+      "type_tags": [
+        "Bedroom",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "The converts the cost of Special Floorplans from Gems into Steps at a 1:3 ratio (e.g., a room originally costing 3 Gems will now cost 9 Steps). This is one of the places you may potentially find the Watering Can .",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path",
+      "secrets": [
+        "Make Note Of This",
+        "There are two documents of note within the Hovel:",
+        "The",
+        "Notice of Termination",
+        "from",
+        "Anne Babbage",
+        ".",
+        "The"
+      ],
+      "directory_blurb": "A squalid dwelling on the edge of the estate belonging to one of the groundskeepers."
+    },
+    {
+      "order": 109,
+      "title": "Trading Post",
+      "slug": "trading-post",
+      "group": "outer_rooms",
+      "group_order": 7,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/109-trading-post.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Trading_Post_Icon.png.png",
+      "type_tags": [
+        "Shop",
+        "Dead End",
+        "Outer Room"
+      ],
+      "description": "The Trading Post is a Shop , draftable only in the Outer Room chamber, that allows you to exchange the items in your inventory for different ones. However, Resource Items and some specific Special Items cannot be traded. (A list of untradable Special Items can be found under the",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path “ An outpost established on the outskirts of Mount Holly in the era before the new realms. This station allowed the frontiersmen and trappers of these mountains to trade goods and services with the state, the locals and one another. — Mount Holly Directory The Trading Post is one of the rooms found in Blue Prince .",
+      "secrets": [
+        "A Worthy Trade",
+        "The expensive items from the",
+        "Showroom",
+        "(",
+        "Master Key",
+        ",",
+        "Emerald Bracelet",
+        ", and"
+      ],
+      "directory_blurb": "An outpost established on the outskirts of Mount Holly in the era before the new realms. This station allowed the frontiersmen and trappers of these mountains to trade goods and services with the state, the locals and one another."
+    },
+    {
+      "order": 110,
+      "title": "Tomb",
+      "slug": "tomb",
+      "group": "outer_rooms",
+      "group_order": 8,
+      "group_color": "outer",
+      "icon_path": "blue_prince_knowledge/wiki_room_index/icons/110-tomb.png",
+      "icon_source": "blue_prince_wiki/images/367_Room_Directory/Tomb_Icon.png.png",
+      "type_tags": [
+        "Blackprint",
+        "Dead End",
+        "Outer Room",
+        "Spread"
+      ],
+      "description": "This is easily the largest room on the grounds, and a Spread room. Visiting the Tomb after drafting Dead End rooms within the manor will spawn a pile of 5 coins for each Dead End drafted. The Tomb itself counts for this effect, so the room will always start with at least 5 coins. The Bunk Room does count as 2 Dead End",
+      "rarity": "Cost",
+      "cost": "Unusual",
+      "unlock": "West Gate Path",
+      "secrets": [
+        "Secret Path 1",
+        "Lighting up the 2 ignitable candles by the left side of the entrance with a opens an alcove",
+        "containing an",
+        "Upgrade Disk",
+        "and 4",
+        "Ivory Dice",
+        ". On subsequent days, this spot contains 2 Dice.",
+        "Secret Path 2"
+      ],
+      "directory_blurb": "This Sinclair family crypt is as gloomy as it is immense. The true Sinclair legacy lies here, resting underneath the stones, a parade of distant relations and forgotten ancestors."
+    }
+  ]
+}

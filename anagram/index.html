@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Word Anagram Solver — Blue Prince Tools</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      padding: 16px 20px;
+      min-height: 100vh;
+    }
+
+    header { margin-bottom: 14px; }
+    h1 { font-size: 1.3rem; font-weight: 700; color: #2d3748; margin-bottom: 2px; }
+    .subtitle { font-size: 0.8rem; color: #718096; }
+
+    /* Status bar */
+    #status-bar {
+      font-size: 0.75rem;
+      color: #a0aec0;
+      margin-bottom: 10px;
+      min-height: 1.2em;
+    }
+    #status-bar.loading { color: #d69e2e; }
+    #status-bar.ready   { color: #38a169; }
+    #status-bar.error   { color: #e53e3e; }
+
+    /* Two-column layout */
+    .page-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .left-col, .right-col {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #a0aec0;
+      margin-bottom: 7px;
+    }
+
+    /* Input */
+    #base-input {
+      width: 100%;
+      padding: 9px 12px;
+      border: 2px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 1.05rem;
+      color: #2d3748;
+      background: white;
+      transition: border-color 0.15s;
+    }
+    #base-input:focus {
+      outline: none;
+      border-color: #4299e1;
+      box-shadow: 0 0 0 3px rgba(66,153,225,0.15);
+    }
+
+    /* Letter pool */
+    .pool-header {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+    .pool-count { font-size: 0.72rem; color: #a0aec0; }
+
+    #letter-pool {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      min-height: 38px;
+      align-items: center;
+    }
+    .letter-tile {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .letter-tile.avail { background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; }
+    .letter-tile.used  { background: transparent; color: #cbd5e0; border: 1px solid #edf2f7; }
+    .letter-sep { width: 8px; flex-shrink: 0; }
+    .pool-placeholder, .selected-placeholder { color: #cbd5e0; font-style: italic; font-size: 0.85rem; }
+
+    /* Selected words */
+    .pool-header .undo-hint { font-size: 0.72rem; color: #a0aec0; font-style: italic; }
+    #selected-words-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 36px;
+      align-items: center;
+    }
+    .word-tile {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px 5px 10px;
+      background: #3182ce;
+      color: white;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.12s, transform 0.08s;
+      border: none;
+    }
+    .word-tile:hover { background: #e53e3e; transform: scale(1.04); }
+    .word-tile .x { font-size: 0.65rem; opacity: 0.7; }
+    .word-tile:hover .x { opacity: 1; }
+
+    /* Add word */
+    .add-row { display: flex; gap: 7px; }
+    .add-row input {
+      flex: 1;
+      padding: 7px 10px;
+      border: 2px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #2d3748;
+      transition: border-color 0.15s;
+    }
+    .add-row input:focus { outline: none; border-color: #4299e1; box-shadow: 0 0 0 3px rgba(66,153,225,0.15); }
+    .add-row input.input-error { border-color: #e53e3e; }
+    .add-row input.input-warn  { border-color: #d69e2e; }
+    .btn {
+      padding: 7px 15px;
+      background: #3182ce;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.12s;
+      white-space: nowrap;
+    }
+    .btn:hover { background: #2b6cb0; }
+    .msg { font-size: 0.8rem; margin-top: 5px; min-height: 1.1em; line-height: 1.4; }
+    .msg.error { color: #c53030; }
+    .msg.warn  { color: #975a16; }
+
+    /* Panels */
+    .panel { background: white; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+    .panel-header {
+      display: flex;
+      align-items: baseline;
+      gap: 7px;
+      padding: 8px 12px 6px;
+      border-bottom: 1px solid #e2e8f0;
+      background: #fafbfc;
+    }
+    .panel-title { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #a0aec0; }
+    .count-badge { font-size: 0.7rem; background: #edf2f7; color: #718096; border-radius: 999px; padding: 1px 6px; font-weight: 500; }
+
+    .panel-list { overflow-y: auto; }
+    .common-list   { height: 160px; }
+    .cands-list    { height: 320px; }
+    .priority-list { height: 200px; }
+    .complete-list { height: 260px; }
+
+    .list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 12px;
+      border-bottom: 1px solid #f7fafc;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: background 0.08s;
+    }
+    .list-item:last-child { border-bottom: none; }
+    .item-len { font-size: 0.7rem; color: #cbd5e0; flex-shrink: 0; margin-left: 8px; }
+
+    .list-item.common { color: #276749; }
+    .list-item.common:hover { background: #c6f6d5; color: #22543d; }
+    .list-item.cand   { color: #2d3748; }
+    .list-item.cand:hover { background: #ebf8ff; color: #2b6cb0; }
+
+    .list-item.hi { background: #fffbeb; color: #744210; font-weight: 700; border-left: 3px solid #f6ad55; padding-left: 9px; }
+    .list-item.hi:hover { background: #fef3c7; }
+
+    .list-item.pri-avail { background: #fffbeb; color: #744210; font-weight: 700; border-left: 3px solid #f6ad55; padding-left: 9px; }
+    .list-item.pri-avail:hover { background: #fef3c7; }
+    .list-item.pri-unavail { color: #cbd5e0; font-style: italic; cursor: default; }
+
+    .pri-remove { margin-left: auto; padding: 0 4px; font-size: 0.65rem; color: #cbd5e0; background: none; border: none; cursor: pointer; flex-shrink: 0; line-height: 1; }
+    .pri-remove:hover { color: #e53e3e; }
+
+    .list-divider { padding: 2px 12px; font-size: 0.67rem; text-transform: uppercase; letter-spacing: 0.06em; color: #a0aec0; background: #f7fafc; border-bottom: 1px solid #e2e8f0; pointer-events: none; }
+
+    .solution-item { padding: 5px 12px; border-bottom: 1px solid #f7fafc; cursor: pointer; transition: background 0.08s; }
+    .solution-item:last-child { border-bottom: none; }
+    .solution-item:hover { background: #ebf8ff; }
+    .solution-words { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+    .sol-word { font-size: 0.85rem; font-weight: 600; color: #2d3748; padding: 2px 7px; background: #edf2f7; border-radius: 999px; }
+    .sol-word.sol-priority { background: #fffbeb; color: #744210; border: 1px solid #f6ad55; }
+    .sol-selected-word { background: #bee3f8; color: #2b6cb0; opacity: 0.7; }
+    .timeout-note { padding: 4px 12px 6px; font-size: 0.72rem; color: #a0aec0; font-style: italic; border-top: 1px solid #f0f0f0; }
+
+    .list-placeholder { padding: 10px 12px; color: #a0aec0; font-style: italic; font-size: 0.85rem; }
+    .list-loading { padding: 10px 12px; color: #a0aec0; font-size: 0.85rem; }
+    .list-loading::after { content: ''; display: inline-block; animation: dots 1.2s infinite; }
+    @keyframes dots { 0% { content: ''; } 33% { content: '.'; } 66% { content: '..'; } 100% { content: '...'; } }
+
+    .panel-footer { padding: 7px 10px; border-top: 1px solid #e2e8f0; background: #fafbfc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Multi-Word Anagram Solver</h1>
+  <p class="subtitle">Build a phrase from the letters below. Click any selected word to undo from that point.</p>
+</header>
+
+<div id="status-bar" class="loading">Loading wordlist…</div>
+
+<div class="page-body">
+
+  <!-- Left column -->
+  <div class="left-col">
+
+    <div class="card">
+      <div class="section-label">Letters or phrase to anagram</div>
+      <input type="text" id="base-input" placeholder="e.g. William Shakespeare" autocomplete="off" spellcheck="false" disabled>
+    </div>
+
+    <div class="card">
+      <div class="pool-header">
+        <div class="section-label" style="margin-bottom:0">Available letters</div>
+        <span class="pool-count" id="pool-count"></span>
+      </div>
+      <div id="letter-pool"><span class="pool-placeholder">Enter a phrase above to begin</span></div>
+    </div>
+
+    <div class="card">
+      <div class="pool-header">
+        <div class="section-label" style="margin-bottom:0">Selected words</div>
+        <span class="undo-hint" id="undo-hint" style="display:none">— click to undo from that point</span>
+      </div>
+      <div id="selected-words-wrap"><span class="selected-placeholder">Nothing selected yet</span></div>
+    </div>
+
+    <div class="card">
+      <div class="section-label">Add a word manually</div>
+      <div class="add-row">
+        <input type="text" id="word-input" placeholder="Type a word and press Enter…" autocomplete="off" spellcheck="false">
+        <button class="btn" onclick="addTypedWord()">Add</button>
+      </div>
+      <div class="msg" id="word-msg"></div>
+    </div>
+
+    <!-- Complete anagrams -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Complete anagrams</span>
+        <span class="count-badge" id="complete-count">0</span>
+      </div>
+      <div class="panel-list complete-list" id="complete-list">
+        <div class="list-placeholder">Enter letters and select words to see complete solutions</div>
+      </div>
+    </div>
+
+  </div><!-- /left-col -->
+
+  <!-- Right column -->
+  <div class="right-col">
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Common words</span>
+        <span class="count-badge" id="common-count">0</span>
+      </div>
+      <div class="panel-list common-list" id="common-list">
+        <div class="list-placeholder">Waiting for input…</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">All candidates</span>
+        <span class="count-badge" id="cand-count">0</span>
+      </div>
+      <div class="panel-list cands-list" id="candidates-list">
+        <div class="list-placeholder">Waiting for input…</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Priority words</span>
+        <span class="count-badge" id="priority-count">0</span>
+      </div>
+      <div class="panel-list priority-list" id="priority-list">
+        <div class="list-placeholder">No priority words yet</div>
+      </div>
+      <div class="panel-footer">
+        <div class="add-row">
+          <input type="text" id="priority-input" placeholder="Add a priority word…" autocomplete="off" spellcheck="false">
+          <button class="btn" onclick="addPriorityWord()" style="background:#d69e2e">Add</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /right-col -->
+
+</div><!-- /page-body -->
+
+<script src="anagram.js"></script>
+</body>
+</html>
