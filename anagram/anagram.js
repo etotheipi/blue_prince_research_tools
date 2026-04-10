@@ -53,7 +53,6 @@ let fetchTimer    = null;
 let completeTimer = null;
 
 // Simple in-browser word set for immediate validation (loaded from wordlist)
-let wordSet = null; // Set<string>, populated once worker loads
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 
@@ -68,12 +67,6 @@ worker.postMessage({ type: 'load', url: wordlistUrl });
 function onWorkerLoaded({ count }) {
   setStatus(`Ready — ${count.toLocaleString()} words loaded`, 'ready');
   document.getElementById('base-input').disabled = false;
-
-  // Also build a local Set for instant validation feedback
-  fetch(`${DATA_ROOT}/wordlist.json`)
-    .then(r => r.json())
-    .then(list => { wordSet = new Set(list); })
-    .catch(() => {}); // non-fatal — validation just won't flag unknown words
 
   // Load default priority words
   fetch(`${DATA_ROOT}/priority_words.json`)
@@ -427,9 +420,6 @@ function validateWord(word) {
   if (errors.length) {
     inp.classList.add('input-error');
     showMsg(errors.join('; '), 'error');
-  } else if (wordSet && !wordSet.has(word)) {
-    inp.classList.add('input-warn');
-    showMsg(`"${word}" not in dictionary — you can still add it`, 'warn');
   } else {
     clearMsg();
   }
