@@ -19,17 +19,19 @@ Generated from curated clean_corpus.sqlite
 
 ## The 8 Realms
 
-| Realm        | Color  | Transportation | Weather | Society      |
-|--------------|--------|----------------|---------|--------------|
-| Orinda Aries | Black  | Train          | Foggy   | Metropolitan |
-| Fenn Aries   | Red    | Road/Carriage  | Foggy   | Martial      |
-| Arch Aries   | Yellow | Train          | Stormy  | Industrial   |
-| Eraja        | Violet | Train          | Rainy   | Poetic       |
-| Corarica     | Orange | Road           | Snowy   | Academic     |
-| Mora Jai     | White  | Naval          | Normal  | Agricultural |
-| Verra        | Pink   | Turtleback     | Heat    | Spiritual    |
-| Nuance       | Green  | Aviation       | Windy   | Martial      |
 
+| Realm        | Color  | Transportation | Weather | Society      | Stamp Price | Stamp Slogan                              | Extra Text                                                                       |
+|--------------|--------|----------------|---------|--------------|-------------|-------------------------------------------|----------------------------------------------------------------------------------|
+| Orinda Aries | Black  | Train          | Foggy   | Metropolitan | 7           | —                                         | —                                                                                |
+| Fenn Aries   | Red    | Road/Carriage  | Foggy   | Martial      | - (blood?)  | "IN FOG WE ARE LOST / IN FIRE WE ARE FOUND" | "THE GRAND REALM OF FENN ARIES"                                               |
+| Arch Aries   | Yellow | Train          | Stormy  | Industrial   | 5           | "TOGETHER WE WEATHER"                     | "IN COMMEMORATION OF THE OPENING OF FIFTH ZONE POWER PLANT, THE CONTESSA"        |
+| Eraja        | Violet | Train          | Rainy   | Poetic       | 3 (x̲ )      | "THE EASTERN REIGN / ETTARIES YENNA"      | "HEWVEN \| NEVHEW" (old house \| new house), "Eraja Arei" (Eraja Future)         |
+| Corarica     | Orange | Road           | Snowy   | Academic     | 12          | —                                         | —                                                                                |
+| Mora Jai     | White  | Naval          | Normal  | Agricultural | 4 (c)       | "THE WHITE SEA OF YORE"                   | —                                                                                |
+| Verra        | Pink   | Turtleback     | Heat    | Spiritual    | 10          | "VERRA SHORES"                            | —                                                                                |
+| Nuance       | Green  | Aviation       | Windy   | Martial      | 1 (ø)       | —                                         | —                                                                                |
+
+ 
 ---
 
 ## The 8 Ajeran Angels
@@ -433,6 +435,33 @@ Transcript:
 >
 > IN WITNESS WHEREOF, I have hereunto set my hand this 18th day of March, Nineteen Hundred and Ninety-three,  
 > Herbert S. Sinclair  
+
+### Family Core Vault Letter
+Location: Vault
+
+Transcript:
+
+> My obsession with ciphers was renewed after my brother died, for among his journals, I found a curious square: a grid of words, written in a hand I immediately recognized - my mother's. Accompanying this discovery were numerous pages containing traces of my brother's fruitless attempts over the years to decipher this grid.  
+>
+> It was a bittersweet find. The excitement I felt was tempered by memories of the unique bond my mother and brother had always shared. I was the child with an interest in puzzles and wordplay, yet it was Simon to whom she bequeathed this cryptic gift.  
+>
+> With all respect to my late brother, it became clear after spending time poring over his notes that he was not very suited to this challenge. Occasionally, he stumbled upon some promising ideas, but none of them were thoroughly pursued.  
+>
+> Where I will give him credit, however, is in the extensive research he conducted, combing through a career's worth of our mother's notes and correspondence. This search culminated in the discovery of a letter my mother had written a local professor, requesting "additional material for use in the creation of a cryptograph." This meager clue was, according to his survey, the only shred of evidence in her belongings that mentioned this project.  
+>
+> As for me, I am ashamed to admit that despite all my boasting, I have nothing to show for nearly three decades of effort. I am no closer to solving this than I was in those early months of daily obsession. And with each passing year, I fear my chances of reaching a satisfying conclusion to this adventure grow ever slimmer.  
+>
+> Some might say this outcome is quite fitting - poetic justice for tormenting my readers for so many years with seemingly impossible bafflers. While I can certainly relate to their frustrations, I wonder if we really need to obtain answers to all of life's questions. Must we always quench our thirst for knowledge?  
+>
+> At my age, I often find myself looking back at the long path behind me, and I think I am content to leave a few stones unturned. A life without some mystery is a life without imagination. So, I will lay down this burden and leave this stone, and the winding path of intrigue it precedes, for future generations to explore.  
+>
+>                     -Herbert  
+>
+> PIGS  SAND  MAIL  DATE  HEAD  
+> CLAM  PEAK  HEAT  JOYA  WELL  
+> TOAD  CARD  WILL  TAPE  LEGS  
+> TREE  ROAD  MAID  SLAB  ROCK  
+> HAND  VASE  SAFE  CLAY  TOES  
 
 ### A New Clue
 Location: Bookshop
@@ -5445,9 +5474,366 @@ Wiki: <https://blue-prince.fandom.com/wiki/Staff_Announcements>
 
 Transcript:
 
-> Documents specifically for the Staff of the Mount Holly Estate can be found around the manor both as paper notices and digital announcements. The paper notices are primarily written by Anne Babbage as the house manager, while the digital announcements are also written by Randolph Moore.  
-> Physical Staff Notes Staff Notice in the Commissary Staff Notice in Security Staff Notice in the Maid's Chamber Digital Staff Notes  
-> They are accessible via the Terminals on the estate. Starting, there is only one Staff Announcement, wishing Simon good luck. By enabling the Satellite Dish additional Staff Announcements become available.  
+> Saturday, November 7th  
+>
+> I don't think anyone else has access to this network this month except you, Simon, so if you're reading this, just know we're all rooting for you!  
+>
+> -Your friends in faithful service  
+>
+> ---  
+>
+> Monday, November 8th  
+>
+> Hey Simon! How was your first day on the estate? Hopefully, you're not having too much trouble drafting rooms, as it can be a bit overwhelming! (I'm normally in charge of drafting the rooms for the day each morning, so I know how it goes)  
+>
+> -Anne Babbage  
+>
+> ---  
+>
+> Tuesday, November 9th  
+>
+> Just to let everyone know, the estate has been cut off from outside communications (Sinclair's instructions). So, I don't think Simon's going to be seeing anything posted here for the time being.  
+>
+> -Moore  
+>
+> ---  
+>
+> Wednesday, November 10th  
+>
+> Now you tell me.  
+>
+> And I'm guessing that means the electronic mail accounts are disabled as well?  
+>
+> -Anne Babbage  
+>
+> ---  
+>
+> Thursday, November 11th  
+>
+> Yes, he should only be able to access data currently on the system so if he does figure out the network password, he should be able to read any emails that were on the system on November 6th, as that is when satellite communications were shut down.  
+>
+> -Moore  
+>
+> ---  
+>
+> Monday, November 22nd  
+>
+> I'm getting anxious, does anyone have any updates on Simon's progress?  
+>
+> -Kimberly Thompson  
+>
+> ---  
+>
+> Tuesday, November 23rd  
+>
+> No, no real word on his progress yet, but it's very hard to say without access to the network from here. I'm monitoring a few things from the offices in Synka but it doesn't really paint a picture of what's happening over there. Your guess is as good as mine.  
+>
+> -Moore  
+>
+> ---  
+>
+> Monday, December 6th  
+>
+> It's been a month now, does anyone know when we are expected to return to work? I know we don't have much information at this time about what's happening on the estate, but my sister is planning a trip in a week and it'd be nice to know if this 'indefinite' leave has any expected end date?  
+>
+> Thanks,  
+> Bridgette  
+>
+> ---  
+>
+> Tuesday, December 7th  
+>
+> Hey Bridgette,  
+>
+> Thanks for checking in. It's a bit complicated but the short answer is no, we don't really know when we will be going back to work, so by all means, take that trip and have fun! These indefinite furloughs only happen once in a career.  
+>
+> -Anne Babbage  
+>
+> ---  
+>
+> Thursday, December 9th  
+>
+> Yes, and I'd like to add that even if Simon has found Room 46, he will very likely want some additional time alone on the estate to adjust before he summons us back to resume work.  
+>
+> If I were placing bets, I would say it's going to at least be another month, maybe longer.  
+>
+> -Moore  
+>
+> ---  
+>
+> Saturday, December 25th  
+>
+> Merry Christmas Simon! Or as Her Ladyship used to call your mother, 'Mary Christmas!'  
+>
+> We wanted to let you know that we've left some presents for you in the BOUDOIR today. Hopefully, next year we'll be able to celebrate this day together!  
+>
+> -Your friends in faithful service  
+>
+> ---  
+>
+> Saturday, January 1st, 1994  
+>
+> Farewell 1993, Hello 1994.  
+>
+> The future is looking up and we're all looking forward to getting back to work.  
+>
+> Happy New Year Simon!  
+>
+> ---  
+>
+> Monday, January 10th, 1994  
+>
+> A few nights ago, I saw Florealis in the sky, which is incredibly auspicious since tomorrow marks the beginning of Mora Jai's Winter Harvest and the celebration of the third paragon, Rynna.  
+>
+> (The farmers of Mora Jai always refer to the angels by their natural order, a preference Herbert adopted in his final years after his trip there.)  
+>
+> -Anne  
+>
+> ---  
+>
+> Friday, January 28th, 1994  
+>
+> Simon,  
+>
+> If my records are accurate, then today is your birthday! I left a cupcake for you in the kitchen while I was setting up this morning. It's not much but I hope you like it!  
+>
+> Many happy returns, and I hope today is a success for you.  
+>
+> ~Anne  
+>
+> ---  
+>
+> Thursday, February 3rd, 1994  
+>
+> Land sakes alive! I'll be blowed. I have absolutely no idea how he's done it, but it appears Simon has somehow reestablished satellite connection from the estate, assuming this isn't a glitch. Either way, now that we have a connection again, I'll be able to check network activity logs and find out what happened.  
+>
+> ---  
+>
+> Friday, February 4th, 1994  
+>
+> I can confirm that this morning, as I was driving up to the estate to reset the house, I did see that the satellite was up. So, it appears the young master does, in fact, have complete mastery of the house.  
+>
+> -Anne Babbage  
+>
+> ---  
+>
+> Saturday, February 5th, 1994  
+>
+> Yay! I'm going to guess that means he's likely already reached ROOM 46 then! I knew he would pull it off, I just knew it!  
+>
+> Congratulations Simon!!!  
+>
+> -Kimberly Thompson  
+>
+> ---  
+>
+> Sunday, February 6th, 1994  
+>
+> Kimberly, I can't confirm with any certainty that he's reached Room 46 yet, but from the activity I can see on the network, I'd be very surprised if he hasn't.  
+>
+> So, congratulations are in order from me as well Simon. I too knew you would pull it off.  
+>
+> -Randolph Moore  
+>
+> ---  
+>
+> Tuesday, February 8th, 1994  
+>
+> If we want to try to communicate with Simon, is it better to post here or to send him emails?  
+>
+> -Kimberly Thompson  
+>
+> ---  
+>
+> Wednesday, February 9th, 1994  
+>
+> I think the announcement board here is slightly more convenient as it's a way for the entire staff to contribute, without us doubling down on information or bombarding Simon with dozens of holiday well wishes.  
+>
+> -Randolph Moore  
+>
+> ---  
+>
+> Friday, February 11th, 1994  
+>
+> Simon, now that you have a satellite connection, you should be able to connect to SYNKA to download some new experimental data packets for the lab. We've been working on a lot of interesting and innovative experiments here, and it would be great if you could try them out for us and provide us with some valuable data.  
+>
+> -Moore  
+>
+> ---  
+>
+> Monday, February 14th, 1994  
+>
+> Simon, I was having lunch the other day with Hartley Ruota, who was your uncle's valet, and has been on the estate longer than anyone else. He told me that if you CALL IT A DAY in some bedrooms, there are beneficial effects. I assume his own room might be among that number. Sounds like it might be worth checking out.  
+>
+> -Randolph  
+>
+> ---  
+>
+> Tuesday, February 15th, 1994  
+>
+> Yes, I've heard Her Ladyship talk about this as well, when she was still with us. So I can confirm that there's some validity in it and it's not just another case of Hartley rambling on. (or maybe it can be both??)  
+>
+> -Anne  
+>
+> ---  
+>
+> Saturday, February 19th, 1994  
+>
+> Simon, remind me when I come back to work to create you a Blackbridge Admin Key, as you are obviously very technically proficient, perhaps even more so than most of my staff here! Funny enough, following our format the naming of your Admin Key would theoretically be JoneS which might be the first one where the Admin Key is the same as the last name.  
+>
+> -Moore  
+>
+> ---  
+>
+> Thursday, February 24th, 1994  
+>
+> We had an informal staff meeting today in Reddington, and we all agreed that providing you with more assistance will expedite our return to work. We feel we've had more than enough vacation! Of course, if you prefer to work independently, please feel free to disregard our more "helpful" messages on these boards.  
+>
+> -Kimberly Thompson  
+>
+> ---  
+>
+> Monday, February 28th, 1994  
+>
+> Randolph,  
+>
+> Can you see on the network how many Upgrade Disks Simon has found? I thought it might be helpful to him if he knew how many were still left on the estate. According to the last backup I did, I believe there were a total of 16 Upgrade Disks that we produced for the estate.  
+>
+> -Kimberly Thompson  
+>
+> ---  
+>
+> Tuesday, March 1st, 1994  
+>
+> Surprisingly, according to the network records, Simon has actually found and used all 16 upgrade discs! Which is crazy, because I'm not even sure I knew where half of them were kept.  
+>
+> -Randolph  
+>
+> ---  
+>
+> Friday, March 4th, 1994  
+>
+> Simon,  
+>
+> Last weekend, I started making a list of Upgrade disks I knew of. It's only half of them, but hopefully it will be of some help!  
+>
+> Her Ladyship's Chamber - Mechanarium - Freezer - Morning Room - Tomb - Great Hall - Vault - Garage  
+>
+> -Kimberly  
+>
+> ---  
+>
+> Saturday, March 5th, 1994  
+>
+> Oh and I think there's one in the Archives, but it's locked in a file cabinet. Anne might know where that key is.  
+>
+> -Kimberly  
+>
+> ---  
+>
+> Sunday, March 6th, 1994  
+>
+> There's actually two file cabinet keys I hid for the Baron, but I think the one you're talking about is buried by the grill in the patio.  
+>
+> I'd have to double check the Aquarium to be certain.  
+>
+> ~Anne Babbage  
+>
+> ---  
+>
+> Monday, March 14th, 1994  
+>
+> IF WE  
+> COUNT  
+> SMALL  
+> GATES  
+> EIGHT  
+> DATES  
+> CRACK  
+> EIGHT  
+> SAFES  
+>
+> ---  
+>
+> Tuesday, March 15th, 1994  
+>
+> !!!??  
+>
+> Who posted that?? I'm almost positive that Sinclair, while tolerant of moderate hints, explicitly told us not to provide full solutions to any of his puzzles.  
+>
+> -Anne  
+>
+> ---  
+>
+> Wednesday, March 16th, 1994  
+>
+> I can check network activity logs to see who's posting announcements but personally, I think that's a bit of a stretch calling that a FULL SOLUTION, even if perhaps it crosses the line.  
+>
+> -Moore  
+>
+> ---  
+>
+> Thursday, March 17th, 1994  
+>
+> Even if it's not a full solution, in the sense that there's more to decipher, it still completely trivializes the art hanging on the walls.  
+>
+> Is there any way we can delete that post before Simon sees it?  
+>
+> -Anne  
+>
+> ---  
+>
+> Friday, March 18th, 1994  
+>
+> Unfortunately, I can't delete announcements remotely. We'll just have to hope Simon had already solved it when that was posted.  
+>
+> -Moore  
+>
+> ---  
+>
+> Sunday, March 20th, 1994  
+>
+> I'm not even sure what the offending message means, but it does remind me of the letters I saw written on the back of the bookcase in the Secret Passage.  
+>
+> -Kimberly  
+>
+> ---  
+>
+> Tuesday, March 22nd, 1994  
+>
+> I agree, but I believe that one is part of a 6x3 grid, not 9x5. So I've concluded that it does not have a connection to the estate floorplan. I've noticed a few others of these that the Baron placed around the estate.  
+>
+> -Moore  
+>
+> ---  
+>
+> Wednesday, March 23rd, 1994  
+>
+> I remember when Mr. Nogula first discovered the letters on the statue in the Cloister. He thought they were graffiti and attempted to scrub them off. I had to gently inform him that random letters (or randomly missing letters) found under the Baron's watch should not be considered out of place.  
+>
+> -Anne  
+>
+> ---  
+>
+> Thursday, March 31st, 1994  
+>
+> I don't have much to say but I hope you are doing well Simon!  
+>
+> -Kimberly  
+>
+> ---  
+>
+> Monday, April 4th, 1994  
+>
+> Some days I wonder if he is even reading these.  
+>
+> ---  
+>
+> Tuesday, April 5th, 1994  
+>
+> We must be patient and wait. We will return to the estate when Simon is ready for us.  
+>
+> -Moore  
 
 ### Star Schedule
 Location: Planetarium
