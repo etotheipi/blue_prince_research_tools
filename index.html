@@ -7,16 +7,26 @@
   <link rel="stylesheet" href="css/main.css">
   <!-- marked.js for markdown rendering in the Docs tab -->
   <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script data-goatcounter="https://blue-prince-research-tool.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
+<!-- Floating hamburger — only visible on mobile when sidebar is closed -->
+<button id="mobile-menu-btn" aria-label="Open menu">☰</button>
+
 <div id="shell">
+
+  <!-- ── Sidebar backdrop (mobile overlay) ── -->
+  <div id="sidebar-backdrop"></div>
 
   <!-- ── Sidebar ── -->
   <nav id="sidebar">
     <div id="sidebar-header">
-      <div id="logo"><span id="logo-accent">⚜</span> Blue Prince</div>
-      <div id="logo-sub">Community Tools</div>
+      <div id="logo-wrap">
+        <div id="logo"><span id="logo-accent">⚜</span> Blue Prince</div>
+        <div id="logo-sub">Community Tools</div>
+      </div>
+      <button id="sidebar-toggle" aria-label="Collapse sidebar">‹</button>
     </div>
 
     <ul id="nav-list">

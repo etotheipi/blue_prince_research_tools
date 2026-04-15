@@ -463,352 +463,161 @@ Transcript:
 > TREE  ROAD  MAID  SLAB  ROCK  
 > HAND  VASE  SAFE  CLAY  TOES  
 
-### A New Clue
-Location: Bookshop
-Wiki: <https://blue-prince.fandom.com/wiki/A_New_Clue>
+
+### A New Clue Draft (ANCD) vs A New Clue Published (ANC)  
+
+- **Original Text** — black ink in ANCD  
+- **Edited Text** — after blue editing marks applied in ANCD  
+- **Published Text** — final published version of ANC  
+
+Wiki links:  
+- [A New Clue (published)](https://blue-prince.fandom.com/wiki/A_New_Clue)  
+- [A New Clue Manuscript (ANCD)](https://blue-prince.fandom.com/wiki/A_New_Clue_Manuscript)  
 
 Transcript:
 
-> 2  
-
-### A New Clue Manuscript
-Location: Bookshop
-Wiki: <https://blue-prince.fandom.com/wiki/A_New_Clue_Manuscript>
-
-Transcript:
-
-> # A New Clue — Full Manuscript Dual Transcript  
+> ---  
 >
-> Note:  
-> BLACK ink = original text  
-> BLUE ink = editorial annotations (by Mary)  
+> ### Spread 1–2 *(title page)*  
+>
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | *(blank left page)* | `a new clue` | A NEW CLUE |  
+> | 2 | `a new clue` | | BY MARION MARIGOLD |  
+> | 3 | | | SUNDIAL PUBLISHING 1988 |  
 >
 > ---  
 >
-> ### Spread 1 (pages 1–2)  
+> ### Spread 3–4  
 >
-> **Left page (page 1):**  
-> - Black text: *(none — blank lined page)*  
-> - Blue marks: *(none)*  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | All he needed was to find a new clue. | All he needed was to find a new clue. | All he needed was to find a new clue, |  
+> | 2 | If he found a new clue, he would know what to do. | If he found a new clue, he would know what to do. | If he found a new clue, he'd know what to do, |  
+> | 3 | If he knew what to do, he'd likely find two. | If he knew what to do, he'd likely tell you, | If he knew what to do, he'd likely tell you, |  
+> | 4 | For you are looking for a new clue too! | For you are looking for a new clue too! | For you are looking for a new clue too! |  
+> | 5 | For clues come together, like a pair of new shoes. | *(deleted)* | |  
 >
-> **Right page (page 2):**  
-> - Black text: `a new clue` followed by a decorative calligraphic flourish/swirl beneath  
-> - Blue marks: *(none)*  
-> - Combined reading (title page): *"a new clue"*  
->
-> ---  
->
-> ### Spread 2 (pages 3–4)  
->
-> **Left page (page 3):**  
-> - Black text:  
->   > All he needed was to find a new clue.  
->   > If he found a new clue, he would know what to do.  
->   > If he knew what to do, he'd likely find two.  
->   > For you are looking for a new clue too!  
->   > For clues come together, like a pair of new shoes.  
-> - Blue marks:  
->   - "a new clue" in line 1 is circled in blue  
->   - `tell you,` written in blue above the struck-through word in line 3  
->   - Line 5 ("For clues come together…") is struck through entirely in blue  
-> - Combined reading:  
->   > All he needed was to find a new clue.  
->   > If he found a new clue, he would know what to do.  
->   > If he knew what to do, he'd likely tell you,  
->   > For you are looking for a new clue too!  
->   > *(line 5 deleted)*  
->
-> **Right page (page 4):**  
-> - Black text in illustration: `PLATFORM 8` on a shield/badge shape  
-> - Blue marks/annotations:  
->   - Side by side pictures, with blue arrows and text "Cook" and "Maid"  
->   - `ROUTE instead?` written in blue on the left side  
->   - `how many memos should be visible?` written in blue on the right side  
-> - Illustration notes: A detective figure (man in overcoat and fedora, seen from behind) stands studying a large corkboard covered in pinned photographs, documents, and notes. **PLATFORM 8** shield badge is prominently visible.  
+> *Illustration: PLATFORM 8 badge. "Cook" and "Maid" labels. "ROUTE instead?" "how many memos should be visible?"*  
 >
 > ---  
 >
-> ### Spread 3 (pages 5–6)  
+> ### Spread 5–6  
 >
-> **Left page (page 5):**  
-> - Black text:  
->   > He had retraced his sketches and studied the files,  
->   > Rewritten his theories and gone through the piles  
->   > Of the evidence shown to god only known,  
->   > And retraced his steps, as it stretched on for miles.  
-> - Blue marks:  
->   - `nobody` written in blue above the struck-through "god only"  
-> - Combined reading:  
->   > He had retraced his sketches and studied the files,  
->   > Rewritten his theories and gone through the piles  
->   > Of the evidence shown to nobody known,  
->   > And retraced his steps, as it stretched on for miles.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | He had retraced his sketches and studied the files, | He had retraced his sketches and studied the files, | He had retraced his sketches and studied the files, |  
+> | 2 | Rewritten his theories and gone through the piles | Rewritten his theories and gone through the piles | Reviewed all his cases and gone through the piles |  
+> | 3 | Of the evidence shown to god only known, | Of the evidence shown to nobody known, | Of the evidence present and precedents evident, |  
+> | 4 | And retraced his steps, as it stretched on for miles. | And retraced his steps, as it stretched on for miles. | And retraced his steps, as it stretched on for miles. |  
 >
-> **Right page (page 6):**  
-> - Black text in illustration:  
->   - `DEPART` on a sign ("Departures" with the end scribbled out)  
->   - Dead Cases (Dead Herrings)  
->     - Lavatory  
->     - Closet  
->     - Attic  
->     - Furnace  
->     - Solarium  
->   - Corner Cases  
->     - Parlor  
->     - Patio (✓)  
->     - Nook (✓)  
->     - Office (✓)  
->     - LIBRARY  
->     - PANTRY (✓)  
->   - Suspect List:  
->     - Rose Bali         50  
->     - Richard Scott     12  
->     - Frond Mayford     32  
->     - Sandra Dillon     14  
->     - Bo Lee            16  
->     - Charles Riscal    12  
->     - Christoph Clarke  25  
->
-> - Blue marks/annotations:  
->   - At top: `Suspect List needed. Will add in final illustration.`  
->   - Under detective "med. gait"  
->   - At bottom right: `double check with Kirk about documents`  
+> *Illustration: DEPART sign. DEAD CASES: Lavatory, Closet, Attic, Furnace, Solarium. CORNER CASES: Parlor, ✓Patio, ✓Nook, ✓Office, Library, ✓Pantry. SUSPECT LIST (Rose Bali 50 / Richard Scott 12 / Frond Mayford 32 / Sandra Dillon 14 / Bo Lee 16 / Charles Riscal 12 / Christoph Clarke 25). "double check with Kirk about documents"*  
 >
 > ---  
 >
-> ### Spread 4 (pages 7–8)  
+> ### Spread 7–8  
 >
-> **Left page (page 7):**  
-> - Black text:  
->   > He had looked high and low in all of the rooms,  
->   > He had searched every corner in all of the tombs,  
->   > For in this case, he had ~~searched~~ CHECKED every space,  
->   > If he found a new clue, he'd know what to do.  
-> - Blue marks:  
->   - Blue numbers annotated above/between specific words throughout the stanza:  
->     - Above line 1: `8, 12, 1, 5+14`  
->     - Above line 2: `3, 13`  
->     - Above line 3: `4 and 9, 6, 2`  
->     - Below line 4: `11, 7, 10`  
->   - "every space," circled in blue  
->   - Below line 4: `11  7  10`  
->   - Blue editorial note at bottom:  
->     > *note to publisher: insert small case numbers (barely visible) between the marked words above.*  
-> - Combined reading:  
->   > He had looked high and low in all of the rooms,  
->   > He had searched every corner in all of the tombs,  
->   > For in this case, he had CHECKED every space,  
->   > If he found a new clue, he'd know what to do.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | He had looked high and low in all of the rooms, | He had looked high and low in all of the rooms, | He had looked high and low in all of the rooms, |  
+> | 2 | He had searched every corner in all of the tombs, | He had searched every corner in all of the tombs, | He had searched every corner in each of the tombs, |  
+> | 3 | For in this case, he had ~~searched~~ CHECKED every space, | For in this case, he had CHECKED every space, | In this particular case, he had checked every space. |  
+> | 4 | If he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. |  
 >
-> **Right page (page 8):**  
-> - Black text in illustration: `KEEP LEFT` on a sign/card near bottom  
-> - Blue marks/annotations:  
->   - `Swap the king with the rook` written in blue at top with downward arrow  
->   - At right side: `X` and `too much overlap with clue in the Secret Passage?`  
-> - Illustration notes: Detective sits at a table studying a chessboard, surrounded by large dramatic chess pieces — a king and rook dominate. Candles on either side.  
+> *Illustration: KEEP LEFT sign. Chessboard with king and rook. Numbers annotated between words. "Swap the king with the rook." "too much overlap with clue in the Secret Passage?"*  
 >
 > ---  
 >
-> ### Spread 5 (pages 9–10)  
+> ### Spread 9–10  
 >
-> **Left page (page 9):**  
-> - Black text:  
->   > He looked and he looked under beds and in nooks,  (too obvious?)  
->   > ~~[struck word]~~ HE questioned the maids, he questioned the cooks,  
->   > It was already over, when he spoke to the chauffeur,  
->   > Who told him new clues were found only in books.  
-> - Blue marks:  
->   - Blue `X` written below the word "beds"  
->   - `HE` written in black above the struck-through opening word of line 2  
-> - Combined reading:  
->   > He looked and he looked under beds and in nooks,  
->   > HE questioned the maids, he questioned the cooks,  
->   > It was already over, when he spoke to the chauffeur,  
->   > Who told him new clues were found only in books.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | He looked and he looked under beds and in nooks, | He looked and he looked under beds and in nooks, | He looked and he looked under beds and in nooks, |  
+> | 2 | ~~[word]~~ HE questioned the maids, he questioned the cooks, | HE questioned the maids, he questioned the cooks, | He questioned the maids, he questioned the cooks, |  
+> | 3 | It was already over, when he spoke to the chauffeur, | It was already over, when he spoke to the chauffeur, | It was already over when he spoke to the chauffeur, |  
+> | 4 | Who told him new clues were found only in books. | Who told him new clues were found only in books. | Who told him new clues were found only in books. |  
 >
-> **Right page (page 10):**  
-> - Black text in illustration: `TO TANNER FORK` on a sign with a left-pointing arrow mounted above the scene  
-> - Blue marks/annotations:  
->   - At bottom right: `replace fork with something connected to 10`  
+> *Illustration: TO TANNER FORK sign. Cook and maid facing detective. Bench with apple, banana, orange. "replace fork with something connected to 10"*  
 >
 > ---  
 >
-> ### Spread 6 (pages 11–12)  
+> ### Spread 11–12  
 >
-> **Left page (page 11):**  
-> - Black text:  
->   > So tome after tome, that the library loaned,  
->   > And the books that he had, that he already owned,  
->   > Were searched from their covers all the way through,  
->   > If he found a new clue, he'd know what to do.  
-> - Blue marks:  
->   - `And` written in blue replacing the struck-through opening word `So`  
->   - `(colors)` written in blue below `covers`  
-> - Combined reading:  
->   > And tome after tome, that the library loaned,  
->   > And the books that he had, that he already owned,  
->   > Were searched from their covers (colors) all the way through,  
->   > If he found a new clue, he'd know what to do.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | ~~So~~ And tome after tome, that the library loaned, | And tome after tome, that the library loaned, | So tome after tome that the library loaned, |  
+> | 2 | And the books that he had, that he already owned, | And the books that he had, that he already owned, | And the books that he had that he already owned, |  
+> | 3 | Were searched from their covers all the way through, | Were searched from their covers (colors) all the way through, | Were searched from their covers all the way through, |  
+> | 4 | If he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. |  
 >
-> **Right page (page 12):**  
-> - Black text in illustration:  
->   - `CUCKOO TWO` written in large letters at topC  
->   - Book spines: `TENDER CIDER` / `LUNAR RENAMED` / `UNCLE AWE` / `DRAFT THE SIXES`  
-> - Blue marks/annotations:  
->   - `A New Clue` showed rearranged into `u ncle Awe`  
-> - Illustration notes: Detective stands in a study/library surrounded by enormous stacks of books, reading one intently. cuckoo clocks and framed pictures hang on the wall.  
+> *Illustration: CUCKOO TWO. Two clocks at ~1:30. Books: TENDER CIPHER / LUNAR RENAMED / UNCLE AWE / DRAFT THE SIXES. Four colored books (red, green, violet, blue) on table.*  
 >
 > ---  
 >
-> ### Spread 7 (pages 13–14)  
+> ### Spread 13–14  
 >
-> **Left page (page 13):**  
-> - Black text:  
->   > He changed all the letters in the lines that he found,  
->   > He checked all the colors for each key that he wound,  
->   > He doubled the meaning of each seasonal greeting,  
->   > And found that the diction of each word was sound.  
-> - Blue marks (parenthetical author annotations in blue):  
->   - After line 1: `(lines as in ranks or lines as in spines)`  
->   - After line 2: `(A nod to my uncle's parlor game)`  
->   - After line 3: `(As my mother used to call me)`  
->   - After line 4: `(unending homophones)`  
-> - Combined reading: *(text unchanged; blue annotations are author/editorial commentary)*  
+> *Note: Blue marks on this page are parenthetical author annotations, not text changes. Edited column shows annotations only.*  
 >
-> **Right page (page 14):**  
-> - Black text in illustration (corkboard/diagram):  
->   - `MERRY/MARY`  
->   - `GATES/GAITS`  
->   - `→RIGHT`  
->   - `↓WRITE`  
->   - `LOR = WORD`  
->   - `JOR = NAME`  
->   - `Draft the Sixes`  
->   - `Shifted extras`  
->   - `the fixed Stars`  
-> - Blue marks/annotations:  
->   - `DEAD END ✦ REMOVE` on a tag at top right (blue)  
->   - A musical note symbol (♩) with label `denoted in verse` (blue) at right edge  
-> - Illustration notes: Detective stands at a writing desk, seen from behind, studying papers. The wall/board in front has elaborate diagram with word/phrase pairs and arrows.  
+> | # | Original | Edited (annotations) | Published |  
+> |:-:|----------|----------------------|-----------|  
+> | 1 | He changed all the letters in the lines that he found, | *(lines as in ranks or lines as in spines)* | He changed all the letters in the lines that he found, |  
+> | 2 | He checked all the colors for each key that he wound, | *(A nod to my uncle's parlor game)* | He checked all the colors of the spines that were bound, |  
+> | 3 | He doubled the meaning of each seasonal greeting, | *(As my mother used to call me)* | He doubled the meaning of each seasonal greeting, |  
+> | 4 | And found that the diction of each word was sound. | *(unending homophones)* | And found that the diction of each word was sound. |  
+>
+> *Illustration: MERRY/MARY, GATES/GAITS, RIGHT/WRITE, LOR=WORD, JOR=NAME. Draft the Sixes → Shifted Extras → the fixeD Sta... DEAD END tag. Musical note "denoted in verse."*  
 >
 > ---  
 >
-> ### Spread 8 (pages 15–16)  
+> ### Spread 15–16  
 >
-> **Left page (page 15):**  
-> - Black text:  
->   > He stayed up all night and studied the maps,  
->   > He laid out the floorplans and measured the gaps,  
->   > And his directory was a trajectory  
->   > Nothing short of a full mental lapse.  
-> - Blue marks:  
->   - `if` inserted in blue with caret (^) before "And his directory…"  
->   - `It was` inserted in blue with caret (^) before "Nothing short…"  
->   - Large blue editorial paragraph at bottom:  
->     - "*from what I was told, I believe Margle's directory is currently 22 rooms short of completion. No cause for concern yet as Uncle has thankfully removed pump room from the draft pool.*"  
-> - Combined reading:  
->   > He stayed up all night and studied the maps,  
->   > He laid out the floorplans and measured the gaps,  
->   > And (if) his directory was a trajectory  
->   > (It was) Nothing short of a full mental lapse.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | He stayed up all night and studied the maps, | He stayed up all night and studied the maps, | He stayed up all night and studied the maps, |  
+> | 2 | He laid out the floorplans and measured the gaps, | He laid out the floorplans and measured the gaps, | He laid out the floorplans and measured the gaps, |  
+> | 3 | And his directory was a trajectory | And (if) his directory was a trajectory | And if his directory was considered a trajectory, |  
+> | 4 | Nothing short of a full mental lapse. | (It was) Nothing short of a full mental lapse. | It was nothing short of a full mental lapse. |  
 >
-> **Right page (page 16):**  
-> - Black text in illustration: `RECORD` on a storefront sign  
-> - Blue marks/annotations:  
->   - `Entrance Hall` written in blue with arrow pointing to a specific area  
-> - Illustration notes: Long, deep-perspective corridor/arcade stretching into the distance. Detective sits small on tiled floor in foreground, reading a document. A "RECORD" shopfront is visible. The corridor resembles the Entrance Hall.  
+> *Illustration: RECORD sign. Entrance Hall-like corridor. Blue grid on paper. "Margle's directory is currently 22 rooms short of completion... Uncle has removed pump room from draft pool."*  
 >
 > ---  
 >
-> ### Spread 9 (pages 17–18)  
+> ### Spread 17–18  
 >
-> **Left page (page 17):**  
-> - Black text:  
->   > A man obsessed, and cuckoo too,  
->   > They would say as he would wander through,  
->   > The best medicine is not yet evident.  
->   > If he found a new clue, he'd know what to do.  
-> - Blue marks:  
->   - `evident` crossed out, replaced by `evidence`  
->   - `When` crossed out, replaced by `If`  
-> - Combined reading:  
->   > A man obsessed, and cuckoo too,  
->   > They would say as he would wander through,  
->   > The best medicine is not yet evidence.  
->   > If he found a new clue, he'd know what to do.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | A man obsessed, and cuckoo too, | A man obsessed, and cuckoo too, | "A man obsessed, and cuckoo too", |  
+> | 2 | They would say as he would wander through, | They would say as he would wander through, | They would say as he would wander through. |  
+> | 3 | The best medicine is not yet evident, | The best medicine is not yet evidence. | The best medicine is not yet evidence, |  
+> | 4 | When he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. | If he found a new clue, he'd know what to do. |  
 >
-> **Right page (page 18):**  
-> - Black text in illustration: `EACH` sign above a building entrance  
-> - Blue marks: *(none)*  
-> - Illustration notes: A crowd of figures all wearing fedora hats stream through/gather at a building entrance marked "EACH." The detective stands front and center, faceless, holding books, slightly distinct from the crowd, walking the opposite direction.  
+> *Illustration: EACH sign above entrance. Crowd of fedora-hat figures. Detective walking opposite direction holding books.*  
 >
 > ---  
 >
-> ### Spread 10 (pages 19–20)  
+> ### Spread 19–20  
 >
-> **Left page (page 19):**  
-> - Black text:  
->   > And having read this over so many times,  
->   > Having scoured over each of the lines,  
->   > Have you exhausted your search,  
->   > Have you seen all the signs?  
-> - Blue marks:  
->   - `over` in line 1 is scribbled out  
->   - "the signs?" in line 4 is circled in blue  
->   - Text `one per page` with arrow pointing to circled `the signs?`  
-> - Combined reading:  
->   > And having read this so many times,  
->   > Having scoured over each of the lines,  
->   > Have you exhausted your search,  
->   > Have you seen all the signs? *(one per page)*  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | And having read this over so many times, | And having read this so many times, | And having read this book so many times, |  
+> | 2 | Having scoured over each of the lines, | Having scoured over each of the lines, | Having scoured over each of its cryptic lines, |  
+> | 3 | Have you exhausted your search, | Have you exhausted your search, | Have you exhausted your search? |  
+> | 4 | Have you seen all the signs? | Have you seen all the signs? *(one per page)* | Have you seen all the signs? |  
 >
-> **Right page (page 20):**  
-> - Black text in illustration:  
->   - `STOP` octagonal sign  
->   - Checklist note reading approximately: *Have I seen all the Signs? ○ DEAD end ✓ MAJOR KEY ○ XYZABC ○* [some entries unclear]  
->   - Label: `MA-JOR`  
->   - Open book/magazine showing detective in a hallway  
->   - Document labeled `METRO`  
->   - Chess rook piece (lighthouse-shaped)  
-> - Blue marks/annotations:  
->   - `show the entire route` written in blue at right margin  
-> - Illustration notes: Cluttered desk/side table viewed from above. Lamp, coffee cup, STOP sign, stacked books, documents, chess rook.  
+> *Illustration: STOP sign. MA\|JOR note. Metro map. Open book with red-outlined words and margin notes. "Dead end → C", "X>Y>Z>A>B>C".*  
 >
 > ---  
 >
-> ### Spread 11 (pages 21–22)  
+> ### Spread 21–22  
 >
-> **Left page (page 21):**  
-> - Black text:  
->   > Or is there perhaps something new,  
->   > Something overlooked but now in view,  
->   > Have you really found it? Could it finally be true?  
->   > If it's a new clue, you know what to do.  
-> - Blue marks:  
->   - `now` crossed out and replaced with `DUE`  
->   - Large black arrow drawn from left page pointing toward the right illustration, where detective was standing in previous page  
-> - Combined reading:  
->   > Or is there perhaps something DUE,  
->   > Something overlooked but now in view,  
->   > Have you really found it? Could it finally be true?  
->   > If it's a new clue, you know what to do.  
+> | # | Original | Edited | Published |  
+> |:-:|----------|--------|-----------|  
+> | 1 | Or is there perhaps something new, | Or is there perhaps something DUE, | Or is there perhaps something new, |  
+> | 2 | Something overlooked but now in view, | Something overlooked but now in view, | Something overlooked but now in view, |  
+> | 3 | Have you really found it? Could it finally be true? | Have you really found it? Could it finally be true? | Have you finally found it? Could it really be true? |  
+> | 4 | If it's a new clue, you know what to do. | If it's a new clue, you know what to do. | If it's a new clue, you know what to do. |  
 >
-> **Right page (page 22):**  
-> - Black text in illustration (corkboard/evidence wall):  
->   - `PLATFORM 8` shield/badge  
->   - Multiple suspect notes:  
->     - Handwritten style: `The SUSPECT IS MINOR`  
->     - Typed style: `THE SUSPECT IS MINER`  
->     - Typed style: `THE SUSPECT IS MAJOR`  
->     - Another: `the suspect is A____ KEY` below a pentagon  
->   - Various photographs, landscape images, documents  
-> - Marks/annotations:  
->   - `remove sign from this final illustration`  
->   - `TYPED` in blue with arrow to "MINOR"  
->   - `handwritten` in red with "MAJOR"  
->   - `typed` in red with "MINER"  
->   - `remind Randolph to set this up before we leave`  
-> - Illustration notes: Large corkboard/evidence wall with many overlapping notes and photographs.  
+> *Illustration: PLATFORM 8 badge. "THE SUSPECT IS MINOR" (blue, handwritten). "THE SUSPECT IS MINER" (red, typed). "THE SUSPECT IS MAJOR" (red, handwritten). "the suspect is A____ KEY." "remind Randolph to set this up before we leave."*  
 
 ### A Sightseer's Guide to Reddington
 Location: Library
@@ -987,22 +796,6 @@ Transcript:
 
 > To continue up,  
 > you must go down.  
-
-### Arch Aries Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Arch_Aries_Postcard>
-
-Transcript:
-
-> We arrived here after a few days of sailing and it made me realize how much more convenient it would have been in the old days when the railway tracks extended all the way north.  
-> Arch Aries is a destination with which I am well acquainted, having traveled here countless times on business for Synka. This time, however, I will avoid the familiar towns and factories and will instead trek along the northern coast, an area with which I am wholly unfamiliar.  
-> Herbert  
->
-> RENEBAUM, ARCH ARIES  
-> FIRST CITY OF STEEL  
->
-> Mount Holly Estate  
-> In care of Mrs. Babbage Reddington, Fenn Aries 63080  
 
 ### Atelier Note
 Location: The Atelier
@@ -1364,30 +1157,6 @@ Transcript:
 > OTHER SPECIAL CASES  
 > - Conservatory (only draftable in a corner)  
 > - Bookshop (only draftable from Library)  
-
-### Corarica Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Corarica_Postcard>
-
-Transcript:
-
-> There have been fewer and fewer opportunities, the further we travel up into the mountains, to attend to my correspondence and I find myself regretting having brought so many books, as this is the first realm I have visited without porters. Here, every person is expected to carry their own belongings, and if you can't, you throw away "that which is expendable". It's looking like I'll be bringing back less souvenirs than I had planned. I never expected to appreciate the cold, but the frigid weather here is a welcome relief coming from the sweltering shores of Verra.  
->
-> Herbert  
->
-> p.s. I ended up forsaking all but one of my books  
->
-> MOUNT EEFROS,  
-> CORARICA  
-> - SCHOOL OF DRAFTING  
->
-> MOUNT EEFROS  
->
-> Mount Holly Estate  
->
-> In care of Mrs. Babbage  
->
-> Reddington, Fenn Aries 63080  
 
 ### Darkroom Hartley Memo
 Location: Servant's Quarters
@@ -2277,54 +2046,6 @@ Other Text:
 
 > Visible pocket insert on page 1 appears to show partial borrower entries: Mar 12 '89 — John Ribbons; Mar 28 '89 — Paul Withers. Separate borrower-card image shows: Mar 18 '87 — Jean Ribbon; Mar 26 '87 — Paul Withers; Nov 26 '93 — Simon P. Jones.  
 
-### Eraja Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Eraja_Postcard>
-
-Transcript:
-
-> I was a little disappointed that there has not been a drop of rain during my time here as every Erajan story I have ever heard has begun with rain. I suppose the anecdotes I make on this trip will have to do without that flavorful setting. However, even without the rain, the puddles and ponds that dot the countryside make this place feel different than home.  
->
-> Lorja Yenna, Ajlor Lune,  
->
-> Herbert  
->
-> FIRST ERAJA  
->
-> HEWAMDDO  
->
-> Mount Holly Estate  
->
-> In care of Anne Babbage  
->
-> Reddington, Fenn Aries 63080  
->
-> Interpreting Erajan  
-> "Lorja Yenna, Ajlor Lune" means "Goodbye Rain/Reign/Ruler, Hello Water", implying a journey by sea.  
-> Hewamddo is more obscure - "Big House not-X" is clear, for whatever X "odd" means. Best guess the community has is that Odd is "foreign" and Ddo is "domestic", and the Hewamddo is the Interior Ministry or possibly Parliament building.  
-
-### Fenn Aries Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Fenn_Aries_Postcard>
-
-Transcript:
-
-> I am actually writing this last postcard sitting at my desk at home. I suppose I should put forth the extra effort and drop it in the mail for consistency, but I am tempted to save the postmaster a trip as it will just wind up here once again to join the other seven, which I am pleased to report were all waiting for me on my desk safe as can be. Flipping through them has reminded me of the many friends I made and lessons learned along the way, and as I look back one truth shines brighter than the others:  
->
-> Air travel is much better than sea travel.  
->
-> Herbert  
->
-> p.s. Remind Anne to replace the books I lost.  
->
-> THE ROYAL MUSEUM OF THE GRAND CITY OF FENN  
->
-> Baron H. S. Sinclair  
->
-> Mount Holly Estate  
->
-> Reddington, Fenn Aries 63080  
-
 ### First Allowance Letter
 Location: Entrance Hall
 Source: Anne Babbage
@@ -2734,6 +2455,169 @@ Transcript:
 > Ovinn Nevarei,  
 > Herbert S. Sinclair  
 
+### Inner Sanctum Postcard - Arch Aries
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Arch_Aries_Postcard>
+
+Transcript:
+
+> We arrived here after a few days of sailing and it made me realize how much more convenient it would have been in the old days when the railway tracks extended all the way north.  
+> Arch Aries is a destination with which I am well acquainted, having traveled here countless times on business for Synka. This time, however, I will avoid the familiar towns and factories and will instead trek along the northern coast, an area with which I am wholly unfamiliar.  
+> Herbert  
+>
+> RENEBAUM, ARCH ARIES  
+> FIRST CITY OF STEEL  
+>
+> Mount Holly Estate  
+> In care of Mrs. Babbage Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Corarica
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Corarica_Postcard>
+
+Transcript:
+
+> There have been fewer and fewer opportunities, the further we travel up into the mountains, to attend to my correspondence and I find myself regretting having brought so many books, as this is the first realm I have visited without porters. Here, every person is expected to carry their own belongings, and if you can't, you throw away "that which is expendable". It's looking like I'll be bringing back less souvenirs than I had planned. I never expected to appreciate the cold, but the frigid weather here is a welcome relief coming from the sweltering shores of Verra.  
+>
+> Herbert  
+>
+> p.s. I ended up forsaking all but one of my books  
+>
+> MOUNT EEFROS,  
+> CORARICA  
+> - SCHOOL OF DRAFTING  
+>
+> MOUNT EEFROS  
+>
+> Mount Holly Estate  
+>
+> In care of Mrs. Babbage  
+>
+> Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Eraja
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Eraja_Postcard>
+
+Transcript:
+
+> I was a little disappointed that there has not been a drop of rain during my time here as every Erajan story I have ever heard has begun with rain. I suppose the anecdotes I make on this trip will have to do without that flavorful setting. However, even without the rain, the puddles and ponds that dot the countryside make this place feel different than home.  
+>
+> Lorja Yenna, Ajlor Lune,  
+>
+> Herbert  
+>
+> FIRST ERAJA  
+>
+> HEWAMDDO  
+>
+> Mount Holly Estate  
+>
+> In care of Anne Babbage  
+>
+> Reddington, Fenn Aries 63080  
+>
+> Interpreting Erajan  
+> "Lorja Yenna, Ajlor Lune" means "Goodbye Rain/Reign/Ruler, Hello Water", implying a journey by sea.  
+> Hewamddo is more obscure - "Big House not-X" is clear, for whatever X "odd" means. Best guess the community has is that Odd is "foreign" and Ddo is "domestic", and the Hewamddo is the Interior Ministry or possibly Parliament building.  
+
+### Inner Sanctum Postcard - Fenn Aries
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Fenn_Aries_Postcard>
+
+Transcript:
+
+> I am actually writing this last postcard sitting at my desk at home. I suppose I should put forth the extra effort and drop it in the mail for consistency, but I am tempted to save the postmaster a trip as it will just wind up here once again to join the other seven, which I am pleased to report were all waiting for me on my desk safe as can be. Flipping through them has reminded me of the many friends I made and lessons learned along the way, and as I look back one truth shines brighter than the others:  
+>
+> Air travel is much better than sea travel.  
+>
+> Herbert  
+>
+> p.s. Remind Anne to replace the books I lost.  
+>
+> THE ROYAL MUSEUM OF THE GRAND CITY OF FENN  
+>
+> Baron H. S. Sinclair  
+>
+> Mount Holly Estate  
+>
+> Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Mora Jai
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Mora_Jai_Postcard>
+
+Transcript:
+
+> After a short sea voyage, we arrived on the main island of Mora Jai last night in good spirits. The people here are belligerent in their politeness and after spending a full day among the Jaioreil I am just as afraid of eating another dish as I am of rejecting their offers. I may try to sneak away tomorrow and spend some time alone with my books as I have noticed that each realm I have visited has one thing in common. They each have been short on solitude.  
+>
+> Herbert  
+>
+> POST CARD  
+>
+> Mount Holly Estate  
+>
+> In care of Mrs. Babbage  
+>
+> Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Nuance
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Nuance_Postcard>
+
+Transcript:
+
+> By far my favorite realm I have visited during this trip, but I have always had a penchant for technology and am less moved by the beauty of nature than others. The soot-filled streets and soaring skyscrapers here are just as stirring to me as the mountains of Corarica or the beaches of Mora Jai. Perhaps I am just letting my childhood love of Dirigiblocks compromise my objectivity. From the shops I have visited, it seems the series is just as popular here as it is back home. Speaking of home, as I look across the eastern sea, I can almost see its shores. I never thought that I would miss the sight of red flags.  
+>
+> Herbert  
+>
+> THE ROYAL EAST AIRHANGER  
+>
+> VIA AIR MAIL  
+>
+> Mount Holly Estate  
+>
+> In care of Mrs. Babbage  
+>
+> Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Orinda Aries
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Orinda_Aries_Postcard>
+
+Transcript:
+
+> Eight realms in eight months. The objective was simple enough, but in what order? What route? And where to start? Questions like these are the ones I tend to ignore as planning has never been my strong suit. Well then! In the true spirit of adventure, I have departed forsaking both map and plan, and as it happens, the road has taken me south. It seems fitting to begin the journey by visiting a fragment of the old kingdom, a landmark as black in realm as it is in name, and a story I feel closely connected to.  
+>
+> Herbert  
+>
+> BLACK BRIDGE HOTEL AND SPA  
+>
+> Mount Holly Estate  
+>
+> In care of Anne Babbage  
+>
+> Reddington, Fenn Aries 63080  
+
+### Inner Sanctum Postcard - Verra
+Location: Inner Sanctum
+Wiki: <https://blue-prince.fandom.com/wiki/Verra_Postcard>
+
+Transcript:
+
+> Despite my prejudice against Mother Nature, I own that I have deeply loved my time here at Verra. The memories of the youthful trip I took here with my brother have been relentless, and as I have gotten older, I find less and less occasion to recollect on such trivial pleasures. One thing I do remember vividly which has not lost a single speck of charm are the famous turtles. Each visitor of Verra, upon arriving, is lent one of these hard shell friends for the duration of their stay, to serve as both steed, guide and companion. I am still under the spell of island life, even if the weather here is much more severe than it was on Mora Jai.  
+>
+> Herbert  
+>
+> Verra Express  
+>
+> Mount Holly Estate  
+>
+> In care of Mrs. Babbage  
+>
+> Reddington, Fenn Aries  
+> 63080  
+
 ### Laboratory Machine Memo
 Location: Laboratory
 Wiki: <https://blue-prince.fandom.com/wiki/Laboratory_Machine_Memo>
@@ -2938,24 +2822,6 @@ Transcript:
 > Messages  
 > DB-only umbrella/category entry for grouped document pages.  
 
-### Mora Jai Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Mora_Jai_Postcard>
-
-Transcript:
-
-> After a short sea voyage, we arrived on the main island of Mora Jai last night in good spirits. The people here are belligerent in their politeness and after spending a full day among the Jaioreil I am just as afraid of eating another dish as I am of rejecting their offers. I may try to sneak away tomorrow and spend some time alone with my books as I have noticed that each realm I have visited has one thing in common. They each have been short on solitude.  
->
-> Herbert  
->
-> POST CARD  
->
-> Mount Holly Estate  
->
-> In care of Mrs. Babbage  
->
-> Reddington, Fenn Aries 63080  
-
 ### Mount Holly Records
 Wiki: <https://blue-prince.fandom.com/wiki/Mount_Holly_Records>
 
@@ -3015,26 +2881,6 @@ Transcript:
 > We thank you for your time and service and wish you the best in your future endeavors,  
 >
 > Anne Babbage, House Manager  
-
-### Nuance Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Nuance_Postcard>
-
-Transcript:
-
-> By far my favorite realm I have visited during this trip, but I have always had a penchant for technology and am less moved by the beauty of nature than others. The soot-filled streets and soaring skyscrapers here are just as stirring to me as the mountains of Corarica or the beaches of Mora Jai. Perhaps I am just letting my childhood love of Dirigiblocks compromise my objectivity. From the shops I have visited, it seems the series is just as popular here as it is back home. Speaking of home, as I look across the eastern sea, I can almost see its shores. I never thought that I would miss the sight of red flags.  
->
-> Herbert  
->
-> THE ROYAL EAST AIRHANGER  
->
-> VIA AIR MAIL  
->
-> Mount Holly Estate  
->
-> In care of Mrs. Babbage  
->
-> Reddington, Fenn Aries 63080  
 
 ### Numeric Core
 Location: Rotating Gear
@@ -3111,24 +2957,6 @@ Transcript:
 > THE  
 > west and EAST LEVERS ARE OPERATIONAL.  
 
-### Orinda Aries Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Orinda_Aries_Postcard>
-
-Transcript:
-
-> Eight realms in eight months. The objective was simple enough, but in what order? What route? And where to start? Questions like these are the ones I tend to ignore as planning has never been my strong suit. Well then! In the true spirit of adventure, I have departed forsaking both map and plan, and as it happens, the road has taken me south. It seems fitting to begin the journey by visiting a fragment of the old kingdom, a landmark as black in realm as it is in name, and a story I feel closely connected to.  
->
-> Herbert  
->
-> BLACK BRIDGE HOTEL AND SPA  
->
-> Mount Holly Estate  
->
-> In care of Anne Babbage  
->
-> Reddington, Fenn Aries 63080  
-
 ### Pantry Note
 Location: Pantry
 Wiki: <https://blue-prince.fandom.com/wiki/Pantry_Note>
@@ -3192,14 +3020,6 @@ Transcript:
 > Two of these terminals can be found at Security (where the punch-clock used to be) and in the Laboratory.  
 > Any questions or concerns regarding this process should be directed as always to our House Manager Mrs. Babbage.  
 > TERMINAL PASSWORD: ▓▓▓▓▓▓▓  
-
-### Postcards
-Wiki: <https://blue-prince.fandom.com/wiki/Postcards>
-
-Transcript:
-
-> Postcards  
-> DB-only umbrella/category entry for grouped document pages.  
 
 ### Mailroom Letter 1
 Location: Mail Room
@@ -7512,25 +7332,6 @@ Transcript:
 >
 > It's unclear if they will also seal that tunnel after our crew has left but I suspect they may want to keep ready access to the gear especially now that they have begun operations in the east mine. A month ago, I believed that the discovery of gemstones in that cavern was directly linked to the closure of this site but now I'm not so sure.  
 > The Baron doesn't seem the type to value shiny baubles over history.  
-
-### Verra Postcard
-Location: Inner Sanctum
-Wiki: <https://blue-prince.fandom.com/wiki/Verra_Postcard>
-
-Transcript:
-
-> Despite my prejudice against Mother Nature, I own that I have deeply loved my time here at Verra. The memories of the youthful trip I took here with my brother have been relentless, and as I have gotten older, I find less and less occasion to recollect on such trivial pleasures. One thing I do remember vividly which has not lost a single speck of charm are the famous turtles. Each visitor of Verra, upon arriving, is lent one of these hard shell friends for the duration of their stay, to serve as both steed, guide and companion. I am still under the spell of island life, even if the weather here is much more severe than it was on Mora Jai.  
->
-> Herbert  
->
-> Verra Express  
->
-> Mount Holly Estate  
->
-> In care of Mrs. Babbage  
->
-> Reddington, Fenn Aries  
-> 63080  
 
 ### West Wing Hall Note
 Location: West Wing Hall

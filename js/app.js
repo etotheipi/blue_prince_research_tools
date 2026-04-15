@@ -49,6 +49,8 @@ const TABS = [
   },
 ];
 
+const DEFAULT_TAB = 'docs';
+
 // Track which tabs have been initialized
 const initialized = new Set();
 
@@ -56,7 +58,7 @@ const initialized = new Set();
 
 function getActiveTabId() {
   const hash = window.location.hash.replace('#', '');
-  return TABS.find(t => t.id === hash) ? hash : TABS[0].id;
+  return TABS.find(t => t.id === hash) ? hash : DEFAULT_TAB;
 }
 
 function navigateTo(tabId) {
@@ -96,6 +98,11 @@ function activateTab(tabId) {
       tab.init();
     }
   }
+
+  // Analytics: track tab views (GoatCounter SPA tracking)
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({ path: '/#' + tabId, title: tab.label });
+  }
 }
 
 // ── Nav click handlers ────────────────────────────────────────────────────────
@@ -103,7 +110,13 @@ function activateTab(tabId) {
 document.querySelectorAll('.nav-item').forEach(item => {
   item.addEventListener('click', () => {
     const tabId = item.dataset.tab;
-    if (tabId) navigateTo(tabId);
+    if (tabId) {
+      navigateTo(tabId);
+      // Auto-close sidebar on mobile after selecting a tab
+      if (window.innerWidth <= 640) {
+        setSidebarCollapsed(true);
+      }
+    }
   });
 });
 
@@ -113,6 +126,48 @@ window.addEventListener('hashchange', () => {
   activateTab(getActiveTabId());
 });
 
+// ── Sidebar collapse ──────────────────────────────────────────────────────────
+
+const sidebar         = document.getElementById('sidebar');
+const sidebarToggle   = document.getElementById('sidebar-toggle');
+const mobileMenuBtn   = document.getElementById('mobile-menu-btn');
+const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+
+function setSidebarCollapsed(collapsed) {
+  sidebar.classList.toggle('collapsed', collapsed);
+  sidebarToggle.textContent  = collapsed ? '›' : '‹';
+  sidebarToggle.setAttribute('aria-label', collapsed ? 'Expand sidebar' : 'Collapse sidebar');
+
+  const isMobile = window.innerWidth <= 640;
+  mobileMenuBtn.style.display = (isMobile && collapsed) ? 'block' : '';
+  sidebarBackdrop.classList.toggle('visible', isMobile && !collapsed);
+
+  if (!isMobile) {
+    localStorage.setItem('sidebarCollapsed', collapsed ? '1' : '0');
+  }
+}
+
+sidebarToggle.addEventListener('click', () => {
+  setSidebarCollapsed(!sidebar.classList.contains('collapsed'));
+});
+
+mobileMenuBtn.addEventListener('click', () => {
+  setSidebarCollapsed(false);
+});
+
+sidebarBackdrop.addEventListener('click', () => {
+  setSidebarCollapsed(true);
+});
+
 // ── Boot ──────────────────────────────────────────────────────────────────────
+
+// Restore desktop sidebar state; collapse by default on mobile
+const isMobileOnLoad = window.innerWidth <= 640;
+if (isMobileOnLoad) {
+  setSidebarCollapsed(true);
+} else {
+  const saved = localStorage.getItem('sidebarCollapsed');
+  setSidebarCollapsed(saved === '1');
+}
 
 activateTab(getActiveTabId());
