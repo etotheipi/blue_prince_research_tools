@@ -6,6 +6,8 @@ const COLS = ['A', 'B', 'C', 'D', 'E'];
 const ROWS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const ASSETS = 'blue-prince-room-index-export';
 
+const LS_KEY = 'bp-layers';
+
 const GROUP_COLORS = {
   blue:   '#6bb3e8',
   green:  '#7ec87f',
@@ -20,6 +22,47 @@ const GROUP_COLORS = {
   black:  '#888888',
 };
 
+const ELEMENTS = [
+  'H','He','Li','Be','B','C','N','O','F','Ne',
+  'Na','Mg','Al','Si','P','S','Cl','Ar','K','Ca',
+  'Sc','Ti','V','Cr','Mn','Fe','Co','Ni','Cu','Zn',
+  'Ga','Ge','As','Se','Br','Kr','Rb','Sr','Y','Zr',
+  'Nb','Mo','Tc','Ru','Rh','Pd','Ag','Cd','In','Sn',
+  'Sb','Te','I','Xe','Cs','Ba','La','Ce','Pr','Nd',
+  'Pm','Sm','Eu','Gd','Tb','Dy','Ho','Er','Tm','Yb',
+  'Lu','Hf','Ta','W','Re','Os','Ir','Pt','Au','Hg',
+  'Tl','Pb','Bi','Po','At','Rn','Fr','Ra','Ac','Th',
+  'Pa','U','Np','Pu','Am','Cm','Bk','Cf','Es','Fm',
+  'Md','No','Lr','Rf','Db','Sg','Bh','Hs','Mt','Ds',
+];
+
+// Layer metadata (index 0 = Layer 1 in UI)
+const LAYER_META = [
+  { name: 'Room Tiles', type: 'tiles'   },
+  { name: 'PATH',       type: 'path'    },
+  { name: 'Room Color', type: 'color'   },
+  { name: 'Room #',     type: 'number'  },
+  { name: 'Element',    type: 'element' },
+  { name: 'Custom 1',   type: 'custom'  },
+  { name: 'Custom 2',   type: 'custom'  },
+  { name: 'Custom 3',   type: 'custom'  },
+  { name: 'Custom 4',   type: 'custom'  },
+  { name: 'Custom 5',   type: 'custom'  },
+  { name: 'Custom 6',   type: 'custom'  },
+];
+
+// PATH code → { iconId, baseRotation }
+const PATH_ICON_MAP = {
+  '1':  { iconId: 111, baseRot: 0   },
+  '2L': { iconId: 112, baseRot: 90  }, // mirrored from original
+  '2R': { iconId: 112, baseRot: 0   }, // mirrored from original
+  '2S': { iconId: 113, baseRot: 0   },
+  '3L': { iconId: 114, baseRot: 180 }, // +180° from original
+  '3R': { iconId: 114, baseRot: 270 }, // +180° from original
+  '3T': { iconId: 114, baseRot: 90  }, // +180° from original
+  '4':  { iconId: 115, baseRot: 0   },
+};
+
 // ── State ─────────────────────────────────────────────────────────────────────
 
 const state = {
@@ -28,6 +71,8 @@ const state = {
   map: {},
   selected: null,   // cellId or null
   drag: null,       // { source: 'menu'|'cell', roomId: number, fromCell?: string }
+  activeLayer: 0,   // 0-indexed layer
+  layerData: null,  // shared bp-layers object
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -44,8 +89,129 @@ function groupColor(colorKey) {
   return GROUP_COLORS[colorKey] ?? '#cccccc';
 }
 
+function colorSwatchBackground(colorKey) {
+  if (!colorKey || colorKey === 'rainbow') {
+    return 'linear-gradient(to right,#e87777,#e8a86b,#e8d87a,#7ec87f,#6bb3e8,#c77ee8)';
+  }
+  const parts = colorKey.split('/');
+  if (parts.length === 1) return GROUP_COLORS[colorKey] ?? '#aaa';
+  const colors = parts.map(p => GROUP_COLORS[p] ?? '#aaa');
+  const pct = 100 / colors.length;
+  const stops = colors.flatMap((c, i) => [`${c} ${i*pct}%`, `${c} ${(i+1)*pct}%`]).join(',');
+  return `linear-gradient(135deg,${stops})`;
+}
+
 function allCellIds() {
   return ['grounds', ...ROWS.flatMap(r => COLS.map(c => `${c}${r}`))];
+}
+
+// Default Room Color layer — must stay in sync with layers/app.js
+const COLOR_DEFAULT = 'blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;blue;rainbow;blue;blue;purple;purple;purple;purple;purple;purple;purple;purple;orange;orange;orange;orange;orange;orange;orange;orange;green;green;green;green;green;green;green;green;yellow;yellow;yellow;yellow;yellow;yellow;black/yellow;yellow;red;red;purple/red;red;red;red;red;red;blue;blue;blue;blue;green;purple;orange;yellow;blue;blue;black;blue/black;orange;green;red;red;blue;blue;blue;blue;green;purple;yellow;black'.split(';');
+
+// ── Layer data ────────────────────────────────────────────────────────────────
+
+function loadLayerData() {
+  try {
+    const raw = localStorage.getItem(LS_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch (_) {}
+  return null;
+}
+
+function saveLayerData() {
+  localStorage.setItem(LS_KEY, JSON.stringify(state.layerData));
+}
+
+// Default PATH layer — one entry per room (1-110), committed 2026-04-18
+const PATH_DEFAULT = '3T;4;2S;4;2L;2L;2S;2L;1;1;1;1;2L;2L;2L;2S;3T;1;2L;2S;2L;2S;1;2L;3T;1;2L;4;3T;2S;1;3T;2L;3T;2S;2L;1;1;1;1;3T;2L;3T;3T;4;1;2L;2L;1;1;1;1;1;1;3T;3T;3T;2S;4;2S;2S;4;1;2L;3T;4;2S;2L;2L;3T;2L;2L;1;2S;1;2L;2L;3T;1;3T;2L;4;3T;3T;4;1;2L;2S;1;2L;1;1;4;2L;1;4;2L;3T;2S;2L;2L;3T;1;1;1;1;1;1;1;1'.split(';');
+
+function initLayerData() {
+  const existing = loadLayerData();
+
+  const defaults = {
+    active:  0,
+    locked:  [true, true, true, true, true, false, false, false, false, false, false],
+    path:    [...PATH_DEFAULT],
+    colors:  [...COLOR_DEFAULT],
+    element: [...ELEMENTS],
+    custom: [
+      { name: 'Custom 1', values: new Array(110).fill('') },
+      { name: 'Custom 2', values: new Array(110).fill('') },
+      { name: 'Custom 3', values: new Array(110).fill('') },
+      { name: 'Custom 4', values: new Array(110).fill('') },
+      { name: 'Custom 5', values: new Array(110).fill('') },
+      { name: 'Custom 6', values: new Array(110).fill('') },
+    ],
+  };
+
+  if (!existing) {
+    state.layerData = defaults;
+    saveLayerData();
+    return;
+  }
+
+  state.layerData = existing;
+  if (!Array.isArray(state.layerData.locked) || state.layerData.locked.length !== 11) {
+    state.layerData.locked = defaults.locked;
+  }
+  if (!Array.isArray(state.layerData.path) || state.layerData.path.length !== 110) {
+    state.layerData.path = defaults.path;
+  }
+  if (!Array.isArray(state.layerData.colors) || state.layerData.colors.length !== 110) {
+    state.layerData.colors = defaults.colors;
+  }
+  if (!Array.isArray(state.layerData.element) || state.layerData.element.length !== 110) {
+    state.layerData.element = defaults.element;
+  }
+  if (!Array.isArray(state.layerData.custom) || state.layerData.custom.length !== 6) {
+    state.layerData.custom = defaults.custom;
+  } else {
+    state.layerData.custom.forEach((c, i) => {
+      if (!c.name) c.name = defaults.custom[i].name;
+      if (!Array.isArray(c.values) || c.values.length !== 110) {
+        c.values = new Array(110).fill('');
+      }
+    });
+  }
+  if (typeof state.layerData.active !== 'number') state.layerData.active = 0;
+  state.activeLayer = state.layerData.active;
+}
+
+function getLayerValue(roomId, layerIdx) {
+  if (!state.layerData || roomId < 1 || roomId > 110) return '';
+  if (layerIdx === 1) return state.layerData.path[roomId - 1] || '';
+  if (layerIdx === 4) return state.layerData.element[roomId - 1] || '';
+  if (layerIdx >= 5) return (state.layerData.custom[layerIdx - 5]?.values[roomId - 1]) || '';
+  return '';
+}
+
+function getLayerDisplayName(li) {
+  if (!state.layerData) return LAYER_META[li].name;
+  if (li >= 5) return state.layerData.custom[li - 5]?.name || LAYER_META[li].name;
+  return LAYER_META[li].name;
+}
+
+// ── Layer Navigator ───────────────────────────────────────────────────────────
+
+function updateLayerNav() {
+  const li    = state.activeLayer;
+  const meta  = LAYER_META[li];
+  const name  = getLayerDisplayName(li);
+  const locked = state.layerData?.locked[li] ?? true;
+
+  byId('layer-label').textContent = `Layer ${li + 1}: ${name}`;
+  byId('layer-lock-icon').textContent = locked ? '🔒' : '🔓';
+  byId('layer-lock-icon').title = locked ? 'Layer is locked' : 'Layer is unlocked';
+}
+
+function setActiveLayer(li) {
+  state.activeLayer = li;
+  if (state.layerData) {
+    state.layerData.active = li;
+    saveLayerData();
+  }
+  updateLayerNav();
+  allCellIds().forEach(renderCell);
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
@@ -68,11 +234,15 @@ async function init() {
   }
 
   state.rooms = data.rooms;
+  initLayerData();
+  state.activeLayer = state.layerData.active ?? 0;
+
   buildLibrary();
   buildMap();
   setDefaults();
   bindGlobalEvents();
   clearInfo();
+  updateLayerNav();
 }
 
 // ── Defaults ─────────────────────────────────────────────────────────────────
@@ -304,13 +474,41 @@ function renderCell(cid) {
   tile.draggable = true;
   tile.title = r.title;
 
-  const img = document.createElement('img');
-  img.src = `${ASSETS}/${r.icon}`;
-  img.alt = r.title;
-  img.draggable = false;
-  img.style.transform = `rotate(${entry.rotation}deg)`;
-  tile.appendChild(img);
+  const li = state.activeLayer;
+  const meta = LAYER_META[li];
 
+  if (meta.type === 'tiles') {
+    // Layer 1: room tile with rotation
+    renderTileLayer(tile, r, entry.rotation);
+
+  } else if (meta.type === 'path') {
+    // Layer 2: path icon with rotation (or dim+unknown marker)
+    renderPathLayer(tile, r, entry.rotation);
+
+  } else if (meta.type === 'color') {
+    // Layer 3: room tile + color overlay (no rotation effect on overlay)
+    renderTileLayer(tile, r, entry.rotation);
+    renderColorOverlay(tile, r);
+
+  } else if (meta.type === 'number') {
+    // Layer 4: room tile + room number bubble
+    renderTileLayer(tile, r, entry.rotation);
+    renderBubble(tile, String(r.id));
+
+  } else if (meta.type === 'element') {
+    // Layer 5: room tile + element bubble
+    renderTileLayer(tile, r, entry.rotation);
+    const val = getLayerValue(r.id, li);
+    if (val) renderBubble(tile, val);
+
+  } else {
+    // Layers 6-8 (custom): room tile + custom text bubble
+    renderTileLayer(tile, r, entry.rotation);
+    const val = getLayerValue(r.id, li);
+    if (val) renderBubble(tile, val);
+  }
+
+  // Drag handlers
   tile.addEventListener('dragstart', e => {
     e.stopPropagation();
     state.drag = { source: 'cell', roomId: entry.roomId, fromCell: cid };
@@ -326,18 +524,77 @@ function renderCell(cid) {
     selectCell(cid);
   });
 
-  // Rotation buttons — visible only when cell is selected
-  tile.appendChild(makeRotateBtn('↺', 'rotate-btn-left',  'Rotate left (Q)',  () => {
-    entry.rotation = (entry.rotation - 90 + 360) % 360;
-    renderCell(cid);
-  }));
-  tile.appendChild(makeRotateBtn('↻', 'rotate-btn-right', 'Rotate right (E)', () => {
-    entry.rotation = (entry.rotation + 90) % 360;
-    renderCell(cid);
-  }));
+  // Rotation buttons — only on Layer 1 (tiles) and Layer 2 (path) — visible only when selected
+  if (meta.type === 'tiles' || meta.type === 'path') {
+    tile.appendChild(makeRotateBtn('↺', 'rotate-btn-left',  'Rotate left (Q)',  () => {
+      entry.rotation = (entry.rotation - 90 + 360) % 360;
+      renderCell(cid);
+    }));
+    tile.appendChild(makeRotateBtn('↻', 'rotate-btn-right', 'Rotate right (E)', () => {
+      entry.rotation = (entry.rotation + 90) % 360;
+      renderCell(cid);
+    }));
+  }
 
   cell.appendChild(tile);
   cell.classList.toggle('selected', state.selected === cid);
+}
+
+function renderTileLayer(tile, r, rotation) {
+  const img = document.createElement('img');
+  img.src = `${ASSETS}/${r.icon}`;
+  img.alt = r.title;
+  img.draggable = false;
+  img.style.transform = `rotate(${rotation}deg)`;
+  tile.appendChild(img);
+}
+
+function renderPathLayer(tile, r, cellRotation) {
+  const val = getLayerValue(r.id, 1);
+  const pathInfo = val ? PATH_ICON_MAP[val] : null;
+
+  if (!pathInfo) {
+    // No path data: dim the room tile and show "?"
+    tile.classList.add('layer-dim');
+    renderTileLayer(tile, r, cellRotation);
+    const unk = document.createElement('div');
+    unk.className = 'layer-unknown';
+    unk.textContent = '?';
+    tile.appendChild(unk);
+    return;
+  }
+
+  const pathRoom = room(pathInfo.iconId);
+  if (!pathRoom) {
+    renderTileLayer(tile, r, cellRotation);
+    return;
+  }
+
+  const totalRot = (pathInfo.baseRot + cellRotation) % 360;
+  const img = document.createElement('img');
+  img.src = `${ASSETS}/${pathRoom.icon}`;
+  img.alt = val;
+  img.draggable = false;
+  img.style.transform = `rotate(${totalRot}deg)`;
+  tile.appendChild(img);
+}
+
+function renderColorOverlay(tile, r) {
+  const colorKey = state.layerData?.colors?.[r.id - 1] || r.groupColor;
+  const overlay = document.createElement('div');
+  overlay.className = 'layer-color-overlay';
+  overlay.style.background = colorSwatchBackground(colorKey);
+  overlay.style.opacity = '0.75';
+  tile.appendChild(overlay);
+}
+
+function renderBubble(tile, text) {
+  const bubble = document.createElement('div');
+  bubble.className = 'layer-bubble';
+  bubble.textContent = text;
+  // Scale font slightly for 3+ char text to keep it within the circle
+  if (text.length >= 3) bubble.style.fontSize = '9px';
+  tile.appendChild(bubble);
 }
 
 function makeRotateBtn(symbol, cls, title, onClick) {
@@ -413,17 +670,28 @@ function bindGlobalEvents() {
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
 
+    // Layer switching works regardless of selection
+    if (e.key === 'a' || e.key === 'A' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      setActiveLayer((state.activeLayer - 1 + 11) % 11);
+      return;
+    } else if (e.key === 'd' || e.key === 'D' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      setActiveLayer((state.activeLayer + 1) % 11);
+      return;
+    }
+
     const cid = state.selected;
     if (!cid) return;
     const entry = state.map[cid];
 
-    if (e.key === 'q' || e.key === 'Q' || e.key === 'ArrowLeft') {
+    if (e.key === 'q' || e.key === 'Q') {
       e.preventDefault();
       if (entry) {
         entry.rotation = (entry.rotation - 90 + 360) % 360;
         renderCell(cid);
       }
-    } else if (e.key === 'e' || e.key === 'E' || e.key === 'ArrowRight') {
+    } else if (e.key === 'e' || e.key === 'E') {
       e.preventDefault();
       if (entry) {
         entry.rotation = (entry.rotation + 90) % 360;
@@ -449,6 +717,14 @@ function bindGlobalEvents() {
   });
   byId('file-input').addEventListener('change', loadLayout);
 
+  // Layer navigator
+  byId('layer-prev').addEventListener('click', () => {
+    setActiveLayer((state.activeLayer - 1 + 11) % 11);
+  });
+  byId('layer-next').addEventListener('click', () => {
+    setActiveLayer((state.activeLayer + 1) % 11);
+  });
+
   // Click on empty space deselects
   document.addEventListener('click', e => {
     if (!e.target.closest('.map-cell') && !e.target.closest('#left-panel') && !e.target.closest('#info-sidebar')) {
@@ -457,6 +733,18 @@ function bindGlobalEvents() {
         state.selected = null;
       }
     }
+  });
+
+  // Storage event: sync layer data changes from Room Layers page
+  window.addEventListener('storage', e => {
+    if (e.key !== LS_KEY || !e.newValue) return;
+    try {
+      const updated = JSON.parse(e.newValue);
+      state.layerData = updated;
+      state.activeLayer = updated.active ?? state.activeLayer;
+      updateLayerNav();
+      allCellIds().forEach(renderCell);
+    } catch (_) {}
   });
 }
 

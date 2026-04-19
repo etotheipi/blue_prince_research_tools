@@ -47,6 +47,12 @@ const TABS = [
     label: 'Layout Organizer',
     iframe: 'layout-organizer/index.html',
   },
+  {
+    id:    'layers',
+    pane:  'tab-layers',
+    label: 'Room Layers',
+    iframe: 'layers/index.html',
+  },
 ];
 
 const DEFAULT_TAB = 'docs';

@@ -1,0 +1,470 @@
+/* ── Reset & Base ────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:          #111318;
+  --bg2:         #181c24;
+  --bg3:         #1f2430;
+  --border:      #2e3347;
+  --border-hi:   #4a5278;
+  --text:        #d0d4e0;
+  --text-dim:    #6a7090;
+  --accent:      #5a7fd4;
+  --accent-hi:   #7ea0f0;
+  --row-h:       32px;
+  --col-room-w:  200px;
+  --col-layer-w: 110px;
+  --thead-h1:    40px;
+  --thead-h2:    36px;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+/* ── App layout ──────────────────────────────────────────────────── */
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ── Toolbar ─────────────────────────────────────────────────────── */
+#page-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+#toolbar-title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+#toolbar-hint {
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+/* ── Table wrapper ───────────────────────────────────────────────── */
+#table-wrapper {
+  flex: 1;
+  overflow: auto;
+  position: relative;
+}
+
+#table-wrapper::-webkit-scrollbar { width: 8px; height: 8px; }
+#table-wrapper::-webkit-scrollbar-track { background: transparent; }
+#table-wrapper::-webkit-scrollbar-thumb { background: var(--border-hi); border-radius: 4px; }
+
+/* ── Table ───────────────────────────────────────────────────────── */
+#layer-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: max-content;
+}
+
+/* ── Sticky room column ──────────────────────────────────────────── */
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--bg2);
+  border-right: 2px solid var(--border-hi);
+}
+
+tbody td.sticky-col {
+  background: var(--bg2);
+}
+
+tbody tr:hover td.sticky-col {
+  background: var(--bg3);
+}
+
+/* ── Thead ───────────────────────────────────────────────────────── */
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+/* Name row */
+#thead-names th {
+  height: var(--thead-h1);
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  padding: 4px 8px;
+  vertical-align: middle;
+  white-space: nowrap;
+  min-width: var(--col-layer-w);
+}
+
+#thead-names th.col-room {
+  min-width: var(--col-room-w);
+  width: var(--col-room-w);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+/* Controls row */
+#thead-controls th {
+  height: var(--thead-h2);
+  background: var(--bg3);
+  border-bottom: 2px solid var(--border-hi);
+  border-right: 1px solid var(--border);
+  padding: 4px 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* ── Layer header name cell ──────────────────────────────────────── */
+.layer-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.layer-name-text {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.layer-name-text.editable {
+  cursor: text;
+  border-bottom: 1px dashed var(--border-hi);
+  outline: none;
+  padding: 1px 2px;
+}
+
+.layer-name-text.editable:focus {
+  border-bottom-color: var(--accent);
+  color: var(--accent-hi);
+}
+
+.layer-num {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 4px;
+  flex-shrink: 0;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────── */
+.btn-icon {
+  background: var(--bg3);
+  border: 1px solid var(--border-hi);
+  border-radius: 4px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 11px;
+  padding: 2px 5px;
+  line-height: 1.4;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.btn-icon:hover {
+  background: var(--border-hi);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.btn-icon.active {
+  background: var(--accent);
+  border-color: var(--accent-hi);
+  color: #fff;
+}
+
+.btn-icon.danger:hover {
+  background: #5a1a1a;
+  border-color: #e87777;
+  color: #e87777;
+}
+
+/* Lock button: two clearly distinct states */
+.lock-btn {
+  /* Unlocked state: normal dim appearance */
+  font-size: 13px;
+  padding: 1px 4px;
+}
+
+.lock-btn.locked {
+  /* Locked state: amber background — clearly different from unlocked */
+  background: #c9a84c;
+  border-color: #a88030;
+  color: #1a1a1a;
+}
+
+.lock-btn.locked:hover {
+  background: #b89040;
+  border-color: #c9a84c;
+  color: #1a1a1a;
+}
+
+.btn-icon.reset-btn {
+  color: #9ab8d8;
+  border-color: #3a5278;
+}
+
+.btn-icon.reset-btn:hover {
+  background: #1a2a44;
+  border-color: var(--accent);
+  color: var(--accent-hi);
+}
+
+/* Controls cell layout */
+.controls-cell {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+
+/* ── Body rows ───────────────────────────────────────────────────── */
+tbody tr {
+  height: var(--row-h);
+}
+
+tbody tr:hover {
+  background: var(--bg3);
+}
+
+tbody tr:hover td {
+  background: transparent; /* let tr hover handle it */
+}
+
+tbody td {
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  padding: 0 8px;
+  height: var(--row-h);
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+/* ── Room column cell ────────────────────────────────────────────── */
+.room-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+}
+
+.room-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.room-id {
+  font-size: 10px;
+  color: var(--text-dim);
+  flex-shrink: 0;
+  min-width: 24px;
+}
+
+.room-name {
+  font-size: 11px;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+/* ── Layer data cells ────────────────────────────────────────────── */
+td.layer-cell {
+  text-align: center;
+  cursor: default;
+  position: relative;
+  min-width: var(--col-layer-w);
+}
+
+td.layer-cell.editable {
+  cursor: text;
+}
+
+td.layer-cell.editable:hover {
+  background: #1a2240 !important;
+}
+
+/* Cell whose value differs from the built-in default */
+td.layer-cell.cell-modified {
+  background: rgba(200, 160, 60, 0.10);
+}
+
+td.layer-cell.focused {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  background: #1a2240 !important;
+}
+
+td.layer-cell input.cell-input {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  padding: 0;
+}
+
+td.layer-cell select.cell-color-select {
+  background: var(--bg3);
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 11px;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Computed cell displays */
+.cell-color-swatch {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.2);
+  vertical-align: middle;
+}
+
+.cell-bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  color: #111;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Path tile thumbnail */
+.cell-path-img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+/* ── Locked column state ─────────────────────────────────────────── */
+.col-locked td.layer-cell {
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.col-locked th.layer-th {
+  opacity: 0.7;
+}
+
+/* Active layer column highlight */
+th.col-active-header {
+  border-top: 2px solid var(--accent) !important;
+}
+
+td.col-active-cell {
+  background: rgba(90, 127, 212, 0.05);
+}
+
+/* ── String view mode ────────────────────────────────────────────── */
+.string-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  padding: 4px;
+}
+
+.string-view-textarea {
+  background: var(--bg3);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: var(--text);
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 11px;
+  padding: 6px;
+  resize: none;
+  width: 100%;
+  min-height: 80px;
+  outline: none;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.string-view-textarea.error {
+  border-color: #e87777;
+}
+
+.string-view-error {
+  color: #e87777;
+  font-size: 10px;
+  padding: 2px 0;
+}
+
+.string-view-buttons {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+/* String view overlay (fixed position, anchored below column header) */
+.string-view-overlay {
+  background: var(--bg3);
+  border: 2px solid var(--accent);
+  border-radius: 4px;
+  z-index: 1000;
+  padding: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+/* Freeze table cells when any column is in string view */
+.table-frozen td.layer-cell {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.table-frozen .col-string-view td.layer-cell {
+  opacity: 1;
+}

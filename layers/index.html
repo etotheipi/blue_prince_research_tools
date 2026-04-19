@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Prince — Room Layers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- Top toolbar: title + global hints -->
+  <div id="page-toolbar">
+    <span id="toolbar-title">Room Layers</span>
+    <span id="toolbar-hint">Click any unlocked cell to edit · Tab / Enter = next row · Shift+Tab / Shift+Enter = prev row</span>
+  </div>
+
+  <!-- Scrollable table area -->
+  <div id="table-wrapper">
+    <table id="layer-table">
+      <thead>
+        <!-- Row 1: layer names + controls -->
+        <tr id="thead-names">
+          <th class="col-room sticky-col">Room</th>
+          <!-- JS populates 8 layer header cells -->
+        </tr>
+        <!-- Row 2: per-column action buttons -->
+        <tr id="thead-controls">
+          <th class="col-room sticky-col"></th>
+          <!-- JS populates 8 control cells -->
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- JS populates 110 room rows -->
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

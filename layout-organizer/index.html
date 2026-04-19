@@ -24,7 +24,14 @@
       <button id="btn-load" title="Load layout from JSON file">📂 Load Layout</button>
       <button id="btn-clear" title="Clear all tiles from map">🗑 Clear Map</button>
       <input type="file" id="file-input" accept=".json" style="display:none">
-      <span id="toolbar-hint">Drag tiles onto the map · Q/← rotate left · E/→ rotate right · Del remove</span>
+      <span id="toolbar-hint">Drag tiles onto the map · Q rotate left · E rotate right · A/D or ←/→ change layer · Del remove</span>
+    </div>
+    <!-- Layer navigator bar -->
+    <div id="layer-nav">
+      <button id="layer-prev" title="Previous layer">◀</button>
+      <span id="layer-label">Layer 1: Room Tiles</span>
+      <span id="layer-lock-icon" title="This layer is locked">🔒</span>
+      <button id="layer-next" title="Next layer">▶</button>
     </div>
 
     <!-- CAPTURE AREA: scrollable outer wrapper -->

@@ -173,6 +173,96 @@ html, body {
   white-space: nowrap;
 }
 
+/* ── Layer Navigator ────────────────────────────────────────────── */
+#layer-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+#layer-nav button {
+  background: var(--bg2);
+  color: var(--text);
+  border: 1px solid var(--border-hi);
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+#layer-nav button:hover {
+  background: var(--border-hi);
+  border-color: var(--accent);
+}
+
+#layer-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-hi);
+  flex: 1;
+  text-align: center;
+}
+
+#layer-lock-icon {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* ── Placed-tile layer overlays ─────────────────────────────────── */
+
+/* Color overlay (Layer 3) */
+.layer-color-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Bubble overlay (Layers 4, 5, 6-8) */
+.layer-bubble {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 52%;          /* ~40px at 76px cell */
+  height: 52%;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  color: #111;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 3;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Unknown path marker */
+.layer-unknown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Dim placed tile when path layer has no data */
+.placed-tile.layer-dim img {
+  opacity: 0.35;
+}
+
 /* ── Capture Area ───────────────────────────────────────────────── */
 #capture-area {
   display: flex;
