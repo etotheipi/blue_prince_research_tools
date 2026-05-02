@@ -1,0 +1,136 @@
+Antechamber
+Aquarium
+Archives
+Attic
+Ballroom
+Billiard Room
+Boiler Room
+Chamber of Mirrors
+Classroom
+Clock Tower
+Cloister
+Closed Exhibit
+Closet
+Coat Check
+Conference Room
+Conservatory
+Darkroom
+Den
+Dining Room
+Dormitory
+Dovecote
+Drafting Studio
+Drawing Room
+East Wing Hall
+Electric Eel Aquarium
+Entrance Hall
+Foyer
+Freezer
+Furnace
+Gallery
+Garage
+Goldfish Aquarium
+Great Hall
+Gymnasium
+Hallway
+Laboratory
+Library
+Locker Room
+Lost & Found
+Mail Room
+Mechanarium
+Music Room
+Nook
+Observatory
+Office
+Parlor
+Passageway
+Planetarium
+Pump Room
+Room 8
+Room 46
+Rotunda
+Rumpus Room
+Sauna
+Secret Garden
+Secret Passage
+Security
+Showroom
+Solarium
+Spare Room
+Storeroom
+Study
+Armory
+Foundation
+Kennel
+Pool
+Throne of the Blue Prince
+Tomb
+Treasure Trove
+Trophy Room
+Tunnel
+Utility Closet
+Vault
+Vestibule
+Walk-in Closet
+Weight Room
+West Wing Hall
+Wine Cellar
+Workshop
+
+Bedroom
+Boudoir
+Bunk Room
+Guest Bedroom
+Her Ladyship's Chamber
+Maid's Chamber
+Master Bedroom
+Nursery
+Servant's Quarters
+
+Corridor
+East Wing Hall
+Foyer
+Great Hall
+Hallway
+Passageway
+Secret Passage
+Vestibule
+West Wing Hall
+
+Courtyard
+Greenhouse
+Morning Room
+Patio
+Secret Garden
+Terrace
+Veranda
+
+Archives
+Chapel
+Darkroom
+Funeral Parlor
+Gymnasium
+Lavatory
+Maid's Chamber
+Weight Room
+
+Bookshop
+Casino
+Commissary
+Kitchen
+Laundry Room
+Locksmith
+Mount Holly Gift Shop
+Showroom
+Starfish Aquarium
+Armory
+
+Hovel
+Root Cellar
+Schoolhouse
+Shelter
+Shrine
+Tomb
+Toolshed
+Trading Post

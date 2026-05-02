@@ -13,6 +13,7 @@ build/
 .venv/
 venv/
 env/
+grotto_analysis/
 
 # Node (if ever used for build tooling)
 node_modules/
