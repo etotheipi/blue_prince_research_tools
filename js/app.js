@@ -32,13 +32,13 @@ const TABS = [
   {
     id:    'browser',
     pane:  'tab-browser',
-    label: 'Doc Browser',
+    label: 'Doc Browser (TBD)',
     // placeholder — no init needed
   },
   {
     id:    'quickref',
     pane:  'tab-quickref',
-    label: 'Quick Reference',
+    label: 'Quick Ref (TBD)',
     // placeholder — no init needed
   },
   {

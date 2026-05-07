@@ -180,6 +180,12 @@
     .sol-selected-word { background: #bee3f8; color: #2b6cb0; opacity: 0.7; }
     .timeout-note { padding: 4px 12px 6px; font-size: 0.72rem; color: #a0aec0; font-style: italic; border-top: 1px solid #f0f0f0; }
 
+    .solution-group { padding: 5px 12px; border-bottom: 1px solid #f7fafc; cursor: pointer; transition: background 0.08s; }
+    .solution-group:last-child { border-bottom: none; }
+    .solution-group:hover { background: #fffbeb; }
+    .group-ellipsis { font-size: 0.82rem; color: #a0aec0; margin: 0 3px; }
+    .group-count { font-size: 0.68rem; background: #fef3c7; color: #92400e; border-radius: 999px; padding: 1px 6px; font-weight: 600; margin-left: 2px; }
+
     .list-placeholder { padding: 10px 12px; color: #a0aec0; font-style: italic; font-size: 0.85rem; }
     .list-loading { padding: 10px 12px; color: #a0aec0; font-size: 0.85rem; }
     .list-loading::after { content: ''; animation: dots 1.2s infinite; }
@@ -214,10 +220,10 @@
     .common-btn.avail:hover { background: #9ae6b4; }
     .common-btn.unavail { background: #f7fafc; color: #cbd5e0; border-color: #e2e8f0; cursor: default; }
 
-    /* Word grid: 5 columns */
+    /* Word grid: 4 columns × 3 rows = 12 boxes */
     .word-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 6px;
     }
 
@@ -383,6 +389,7 @@
     <!-- 5×2 word grid: 8 categories + Priority Words + Dictionary -->
     <div class="word-grid">
 
+      <!-- Row 1: Angels, Constellations, Erajan, Items -->
       <div class="word-box">
         <div class="word-box-header">Angels <span class="count-badge" id="cnt-angels">0</span></div>
         <div class="word-box-body" id="box-angels"><div class="box-placeholder">—</div></div>
@@ -403,6 +410,12 @@
         <div class="word-box-body" id="box-items"><div class="box-placeholder">—</div></div>
       </div>
 
+      <!-- Row 2: Numbers, People, Places, Powers -->
+      <div class="word-box">
+        <div class="word-box-header">Numbers <span class="count-badge" id="cnt-numbers">0</span></div>
+        <div class="word-box-body" id="box-numbers"><div class="box-placeholder">—</div></div>
+      </div>
+
       <div class="word-box">
         <div class="word-box-header">People <span class="count-badge" id="cnt-people">0</span></div>
         <div class="word-box-body" id="box-people"><div class="box-placeholder">—</div></div>
@@ -418,21 +431,28 @@
         <div class="word-box-body" id="box-powers"><div class="box-placeholder">—</div></div>
       </div>
 
+      <!-- Row 3: Rooms, Manual, Priority Words, Dictionary -->
       <div class="word-box">
         <div class="word-box-header">Rooms <span class="count-badge" id="cnt-rooms">0</span></div>
         <div class="word-box-body" id="box-rooms"><div class="box-placeholder">—</div></div>
       </div>
 
-      <!-- Priority Words box (with add footer) -->
+      <!-- Manual box: user-added words, persisted to localStorage -->
+      <div class="word-box">
+        <div class="word-box-header">Manual <span class="count-badge" id="cnt-manual">0</span></div>
+        <div class="word-box-body" id="box-manual"><div class="box-placeholder">add words below</div></div>
+        <div class="word-box-footer">
+          <div class="add-row">
+            <input type="text" id="manual-input" placeholder="Add word…" autocomplete="off" spellcheck="false">
+            <button class="btn" onclick="addManualWord()">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Priority Words box: static bulk list (no add/remove) -->
       <div class="word-box">
         <div class="word-box-header">Priority Words <span class="count-badge" id="cnt-priority">0</span></div>
         <div class="word-box-body" id="box-priority"><div class="box-placeholder">—</div></div>
-        <div class="word-box-footer">
-          <div class="add-row">
-            <input type="text" id="priority-input" placeholder="Add word…" autocomplete="off" spellcheck="false">
-            <button class="btn" onclick="addPriorityWord()">+</button>
-          </div>
-        </div>
       </div>
 
       <!-- General dictionary -->
